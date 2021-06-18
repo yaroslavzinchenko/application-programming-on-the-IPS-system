@@ -152,7 +152,7 @@ int main()
 
 	chrono::high_resolution_clock::time_point t4 = chrono::high_resolution_clock::now();
 	chrono::duration <double> durationRightRectangles = (t4 - t3);
-	cout << "Время подсчёта методом левых прямоугольников: " << durationRightRectangles.count() << " секунд." << endl << endl;
+	cout << "Время подсчёта методом правых прямоугольников: " << durationRightRectangles.count() << " секунд." << endl << endl;
 
 
 	cout << "Аналитическое решение: " << endl;
@@ -194,12 +194,12 @@ int main()
 
 	t2 = chrono::high_resolution_clock::now();
 	chrono::duration <double> durationLeftRectanglesNoVector = (t2 - t1);
-	cout << "Время подсчёта методом левых прямоугольников: " << durationLeftRectanglesNoVector.count() << " секунд." << endl << endl;
+	cout << "Время подсчёта методом левых прямоугольников с отключённой векторизацией: " << durationLeftRectanglesNoVector.count() << " секунд." << endl << endl;
 
 
 	t1 = chrono::high_resolution_clock::now();
 
-	cout << "Метод правых прямоугольников:" << endl;
+	cout << "Метод правых прямоугольников с отключённой векторизацией:" << endl;
 	n = 100;
 	h = (b - a) / n;
 	cout << rightRectanglesMethodNoVector(a, b, h) << endl;
@@ -222,7 +222,7 @@ int main()
 
 	t2 = chrono::high_resolution_clock::now();
 	chrono::duration <double> durationRightRectanglesNoVector = (t2 - t1);
-	cout << "Время подсчёта методом левых прямоугольников: " << durationRightRectanglesNoVector.count() << " секунд." << endl << endl;
+	cout << "Время подсчёта методом правых прямоугольников с отключённой векторизацией: " << durationRightRectanglesNoVector.count() << " секунд." << endl << endl;
 
 
 
@@ -236,7 +236,7 @@ int main()
 	n = 100;
 	h = (b - a) / n;
 
-	cout << "Метод левых прямоугольников:" << endl;
+	cout << "Метод левых прямоугольников с параллелизацией на 2-х потоках:" << endl;
 	cout << leftRectanglesMethodQPar(a, b, h) << endl;
 
 	n = 1000;
@@ -257,7 +257,7 @@ int main()
 
 	t2 = chrono::high_resolution_clock::now();
 	chrono::duration <double> durationLeftRectanglesQPar = (t2 - t1);
-	cout << "Время подсчёта методом левых прямоугольников: " << durationLeftRectanglesQPar.count() << " секунд." << endl << endl;
+	cout << "Время подсчёта методом левых прямоугольников с параллелизацией на 2-х потоках: " << durationLeftRectanglesQPar.count() << " секунд." << endl << endl;
 
 
 	
