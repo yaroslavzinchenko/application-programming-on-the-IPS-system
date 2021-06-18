@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\DZ3.cpp"
+           line_no="11"
+           routine="leftRectanglesMethod"
+           is_vectorized="0"
+           self_time="6.421615E-01"
+           total_time="6.421615E-01"
+           trip_counts=""
+           func_instance="6"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\DZ3.cpp"
+           line_no="27"
+           routine="leftRectanglesMethodOpenMP"
+           is_vectorized="0"
+           self_time="5.783136E-01"
+           total_time="5.783136E-01"
+           trip_counts=""
+           func_instance="10"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

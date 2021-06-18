@@ -1,0 +1,73 @@
+# callstacks file version: 7
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi
+         1	        -1	     69667	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	69667	5	0	1	0	0	0	0	0	0	0
+         2	        -1	    424557	    0	      1	                         func@0x4b2e7a53	C:\Windows\SysWOW64\ntdll.dll	424531	28	0	13	0	0	0	0	0	0	0
+         3	         2	    424605	    0	      1	                         func@0x4b2e7a6f	C:\Windows\SysWOW64\ntdll.dll	424559	52	0	14	0	0	0	0	0	0	0
+         4	         3	    129576	    0	      1	                     BaseThreadInitThunk	C:\Windows\SysWOW64\kernel32.dll	129552	58	0	8	0	0	0	0	0	0	0
+         5	         4	     82599	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	82592	10	0	1	0	0	0	0	0	0	0
+         6	         5	     81676	    0	      0	                       _scrt_common_main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	81664	15	0	2	0	0	0	0	0	0	0
+         7	         6	     82038	    0	      0	                   _scrt_common_main_seh	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	81696	532	0	3	0	0	0	0	0	0	0
+         8	         7	     82466	    0	      0	                             invoke_main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	82416	58	0	4	0	0	0	0	0	0	0
+         9	         8	     77896	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	77664	922	0	5	0	0	0	0	0	0	0
+        10	        49	     76733	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        11	        49	     76785	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        12	        49	     76780	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        13	        49	     76745	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        14	        49	     76775	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        15	        49	     76771	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        16	        49	     76790	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        17	        49	     76743	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        18	        49	     76795	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        19	        49	     76750	    1	      0	[Loop at line 11 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76733	74	76807	6	0	0	0	0	0	0	0
+        20	         8	     77919	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	77664	922	0	5	0	0	0	0	0	0	0
+        21	        20	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	26	0	0	0	0	0	0	0
+        22	        21	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	28	0	0	0	0	0	0	0
+        23	        22	    149808	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	29	0	0	0	0	0	0	0
+        24	         8	     78116	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	77664	922	0	5	0	0	0	0	0	0	0
+        25	        24	     73136	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	72448	1196	0	9	0	0	0	0	0	0	0
+        26	        25	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	30	0	0	0	0	0	0	0
+        27	        26	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	31	0	0	0	0	0	0	0
+        28	        27	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	12	0	0	0	0	0	0	0
+        29	        28	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	16	0	0	0	0	0	0	0
+        30	        29	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	17	0	0	0	0	0	0	0
+        31	        30	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	18	0	0	0	0	0	0	0
+        32	        31	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	19	0	0	0	0	0	0	0
+        33	        32	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	20	0	0	0	0	0	0	0
+        34	        33	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	21	0	0	0	0	0	0	0
+        35	        34	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	22	0	0	0	0	0	0	0
+        36	        35	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	23	0	0	0	0	0	0	0
+        37	        69	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	24	0	0	0	0	0	0	0
+        38	        37	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	27	0	0	0	0	0	0	0
+        39	        38	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	15	0	0	0	0	0	0	0
+        40	         8	     78211	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	77664	922	0	5	0	0	0	0	0	0	0
+        41	        60	     77056	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        42	        60	     77052	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        43	        60	     77066	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        44	        60	     77071	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        45	        60	     77061	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        46	        60	     77014	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        47	        60	     77026	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        48	        60	     76999	    1	      0	[Loop at line 27 in leftRectanglesMethodOpenMP]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76999	74	77073	10	0	0	0	0	0	0	0
+        49	         9	     76733	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        50	         9	     76733	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        51	         9	     76785	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        52	         9	     76780	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        53	         9	     76745	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        54	         9	     76775	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        55	         9	     76771	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        56	         9	     76790	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        57	         9	     76743	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        58	         9	     76795	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        59	         9	     76750	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76656	174	0	7	0	0	0	0	0	0	0
+        60	        40	     76999	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        61	        40	     77056	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        62	        40	     77052	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        63	        40	     77066	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        64	        40	     77071	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        65	        40	     77061	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        66	        40	     77014	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        67	        40	     77026	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        68	        40	     76999	    0	      0	              leftRectanglesMethodOpenMP	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ3\Debug\DZ3.exe	76880	216	0	11	0	0	0	0	0	0	0
+        69	        36	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	25	0	0	0	0	0	0	0
+        70	        36	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	25	0	0	0	0	0	0	0
+        71	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	33	0	0	0	0	0	0	0
