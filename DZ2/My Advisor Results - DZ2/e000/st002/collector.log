@@ -1,0 +1,58 @@
+Collection status has changed. 1
+Collection has been started.
+Collection has stopped. Application exit code:  0
+Loading cached program model
+Cache load failed
+Loading collected suitability data
+Finalizing results
+Finalizing the result
+Clearing the database
+The database has been cleared, elapsed time is 2.168 seconds.
+Loading raw data to the database
+Loading 'systemcollector-12768-HP.sc' file
+Loading '22784-4932.0.trace' file
+Updating precomputed scalar metrics
+Raw data has been loaded to the database, elapsed time is 1.061 seconds.
+Processing profile metrics and debug information
+Data transformations have been finished, elapsed time is 0.043 seconds.
+Setting data model parameters
+Resolving module symbols
+Resolving information for `kernel32.dll'
+Resolving information for `ucrtbased.dll'
+Resolving information for `libittnotify.dll'
+Resolving information for `ntdll.dll'
+Warning: Cannot locate debugging information for file `C:\Windows\SysWOW64\kernel32.dll'.
+Warning: Cannot locate debugging information for file `C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll'.
+Warning: Cannot locate debugging information for file `C:\Windows\SysWOW64\ucrtbased.dll'.
+Warning: Cannot locate debugging information for file `C:\Windows\SysWOW64\ntdll.dll'.
+Resolving information for `DZ2.exe'
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Symbol resolution has been finished, elapsed time is 1.318 seconds.
+Processing profile metrics and debug information
+Deferred data transformations have been finished, elapsed time is 0.138 seconds.
+Setting data model parameters
+Data model parameters have been set, elapsed time is 0.123 seconds.
+Precomputing frequently used data
+Precomputing frequently used data
+Updating precomputed scalar metrics
+Precomputing frequently used data has been finished, elapsed time is 0.248 seconds.
+Discarding redundant overtime data
+Saving the result
+Redundant overtime data has been discarded, elapsed time is 0.109 seconds.
+Raw collector data has been discarded, elapsed time is 0.000 seconds.
+Finalizing the result took 5.934 seconds.
+Resolving module symbols
+Resolving information for dangling locations
+Resolving bottom user stack information
+Resolving thread name information
+Resolving call target names for dynamic code
+Precomputing frequently used data
+Saving the result
+Building program model
+Building program model
+Saving program model
+Caching program model
+Preparing data for efficient display
+Preparing data for efficient display

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\DZ2.cpp"
+           line_no="18"
+           routine="leftRectanglesMethod"
+           is_vectorized="0"
+           self_time="1.065276E-01"
+           total_time="1.428725E-01"
+           trip_counts=""
+           func_instance="72"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\DZ2.cpp"
+           line_no="72"
+           routine="rightRectanglesMethod"
+           is_vectorized="0"
+           self_time="7.639496E-03"
+           total_time="7.639496E-03"
+           trip_counts=""
+           func_instance="75"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\DZ2.cpp"
+           line_no="47"
+           routine="leftRectanglesMethodQPar"
+           is_vectorized="0"
+           self_time="7.479077E-03"
+           total_time="7.479077E-03"
+           trip_counts=""
+           func_instance="84"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\DZ2.cpp"
+           line_no="34"
+           routine="leftRectanglesMethodNoVector"
+           is_vectorized="0"
+           self_time="7.423715E-03"
+           total_time="7.423715E-03"
+           trip_counts=""
+           func_instance="80"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\DZ2.cpp"
+           line_no="85"
+           routine="rightRectanglesMethodNoVector"
+           is_vectorized="0"
+           self_time="7.396357E-03"
+           total_time="7.396357E-03"
+           trip_counts=""
+           func_instance="82"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

@@ -1,0 +1,647 @@
+# callstacks file version: 7
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi
+         1	        -1	    685520	    0	      1	                         func@0x100a75d0	C:\Windows\SysWOW64\ucrtbased.dll	685520	264	0	2	0	0	0	0	0	0	0
+         2	        -1	     69667	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	69667	5	0	56	0	0	0	0	0	0	0
+         3	        -1	    424557	    0	      1	                         func@0x4b2e7a53	C:\Windows\SysWOW64\ntdll.dll	424531	28	0	3	0	0	0	0	0	0	0
+         4	         3	    424605	    0	      1	                         func@0x4b2e7a6f	C:\Windows\SysWOW64\ntdll.dll	424559	52	0	4	0	0	0	0	0	0	0
+         5	         4	    129576	    0	      1	                     BaseThreadInitThunk	C:\Windows\SysWOW64\kernel32.dll	129552	58	0	1	0	0	0	0	0	0	0
+         6	         5	    104823	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	104816	10	0	56	0	0	0	0	0	0	0
+         7	         6	    103900	    0	      0	                       _scrt_common_main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	103888	15	0	59	0	0	0	0	0	0	0
+         8	         7	    104262	    0	      0	                   _scrt_common_main_seh	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	103920	532	0	60	0	0	0	0	0	0	0
+         9	         8	    104690	    0	      0	                             invoke_main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	104640	58	0	62	0	0	0	0	0	0	0
+        10	         9	     93176	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+        11	        10	    623412	    0	      1	                               setlocale	C:\Windows\SysWOW64\ucrtbased.dll	623376	44	0	9	0	0	0	0	0	0	0
+        12	        11	    622381	    0	      1	                         func@0x10097f00	C:\Windows\SysWOW64\ucrtbased.dll	622336	50	0	10	0	0	0	0	0	0	0
+        13	        12	    622274	    0	      1	                         func@0x10097e70	C:\Windows\SysWOW64\ucrtbased.dll	622192	100	0	11	0	0	0	0	0	0	0
+        14	        13	    622432	    0	      1	                         func@0x10097f40	C:\Windows\SysWOW64\ucrtbased.dll	622400	683	0	12	0	0	0	0	0	0	0
+        15	        14	    623344	    0	      1	                         func@0x100981f0	C:\Windows\SysWOW64\ucrtbased.dll	623088	278	0	13	0	0	0	0	0	0	0
+        16	        15	    630421	    0	      1	                              wsetlocale	C:\Windows\SysWOW64\ucrtbased.dll	630192	240	0	14	0	0	0	0	0	0	0
+        17	        16	    624734	    0	      1	                         func@0x10098840	C:\Windows\SysWOW64\ucrtbased.dll	624704	35	0	15	0	0	0	0	0	0	0
+        18	        17	    624267	    0	      1	                         func@0x10098640	C:\Windows\SysWOW64\ucrtbased.dll	624192	90	0	16	0	0	0	0	0	0	0
+        19	        18	    625732	    0	      1	                         func@0x10098ba0	C:\Windows\SysWOW64\ucrtbased.dll	625568	172	0	17	0	0	0	0	0	0	0
+        20	        19	    624557	    0	      1	                         func@0x10098780	C:\Windows\SysWOW64\ucrtbased.dll	624512	50	0	18	0	0	0	0	0	0	0
+        21	        20	    623883	    0	      1	                         func@0x100984c0	C:\Windows\SysWOW64\ucrtbased.dll	623808	90	0	19	0	0	0	0	0	0	0
+        22	        21	    625237	    0	      1	                         func@0x10098a10	C:\Windows\SysWOW64\ucrtbased.dll	625168	287	0	20	0	0	0	0	0	0	0
+        23	        22	    632194	    0	      1	                         func@0x1009a260	C:\Windows\SysWOW64\ucrtbased.dll	631392	1108	0	21	0	0	0	0	0	0	0
+        24	        23	    627991	    0	      1	                         func@0x10099320	C:\Windows\SysWOW64\ucrtbased.dll	627488	1470	0	22	0	0	0	0	0	0	0
+        25	        24	    610139	    0	      1	                         func@0x10094ec2	C:\Windows\SysWOW64\ucrtbased.dll	609986	793	0	23	0	0	0	0	0	0	0
+        26	        25	    607567	    0	      1	                         func@0x100944e0	C:\Windows\SysWOW64\ucrtbased.dll	607456	137	0	24	0	0	0	0	0	0	0
+        27	        26	    596263	    0	      1	                         func@0x100918f0	C:\Windows\SysWOW64\ucrtbased.dll	596208	87	0	25	0	0	0	0	0	0	0
+        28	        27	    992434	    0	      1	                     EnumSystemLocalesEx	C:\Windows\SysWOW64\KernelBase.dll	992400	39	0	29	0	0	0	0	0	0	0
+        29	        28	   1262894	    0	      1	                         func@0x101344f0	C:\Windows\SysWOW64\KernelBase.dll	1262832	310	0	39	0	0	0	0	0	0	0
+        30	        29	    609181	    0	      1	                         func@0x10094b42	C:\Windows\SysWOW64\ucrtbased.dll	609090	300	0	26	0	0	0	0	0	0	0
+        31	        30	    596823	    0	      1	                         func@0x10091b20	C:\Windows\SysWOW64\ucrtbased.dll	596768	94	0	27	0	0	0	0	0	0	0
+        32	        31	   1137888	    0	      1	                         GetLocaleInfoEx	C:\Windows\SysWOW64\KernelBase.dll	1137840	64	0	48	0	0	0	0	0	0	0
+        33	        32	   1097728	    0	      1	                     GetLocaleInfoHelper	C:\Windows\SysWOW64\KernelBase.dll	1097632	6012	0	49	0	0	0	0	0	0	0
+        34	        31	   1137854	    0	      1	                         GetLocaleInfoEx	C:\Windows\SysWOW64\KernelBase.dll	1137840	64	0	48	0	0	0	0	0	0	0
+        35	        34	   1138021	    0	      1	                  GetNamedLocaleHashNode	C:\Windows\SysWOW64\KernelBase.dll	1137920	122	0	50	0	0	0	0	0	0	0
+        36	        35	   1131162	    0	      1	                         func@0x101141e9	C:\Windows\SysWOW64\KernelBase.dll	1130985	277	0	51	0	0	0	0	0	0	0
+        37	        36	   1131297	    0	      1	                         func@0x101142fe	C:\Windows\SysWOW64\KernelBase.dll	1131262	90	0	53	0	0	0	0	0	0	0
+        38	        37	   1131817	    0	      1	                         func@0x10114473	C:\Windows\SysWOW64\KernelBase.dll	1131635	301	0	55	0	0	0	0	0	0	0
+        39	        38	    469724	    0	      1	                               NtOpenKey	C:\Windows\SysWOW64\ntdll.dll	469712	16	0	5	0	0	0	0	0	0	0
+        40	        35	   1131198	    0	      1	                         func@0x101141e9	C:\Windows\SysWOW64\KernelBase.dll	1130985	277	0	51	0	0	0	0	0	0	0
+        41	        40	   1137605	    0	      1	                         func@0x10115ada	C:\Windows\SysWOW64\KernelBase.dll	1137370	249	0	57	0	0	0	0	0	0	0
+        42	        41	   1138021	    0	      1	                  GetNamedLocaleHashNode	C:\Windows\SysWOW64\KernelBase.dll	1137920	122	0	50	0	0	0	0	0	0	0
+        43	        42	   1131132	    0	      1	                         func@0x101141e9	C:\Windows\SysWOW64\KernelBase.dll	1130985	277	0	51	0	0	0	0	0	0	0
+        44	        43	   1131297	    0	      1	                         func@0x101142fe	C:\Windows\SysWOW64\KernelBase.dll	1131262	90	0	53	0	0	0	0	0	0	0
+        45	        44	   1131817	    0	      1	                         func@0x10114473	C:\Windows\SysWOW64\KernelBase.dll	1131635	301	0	55	0	0	0	0	0	0	0
+        46	        45	    469724	    0	      1	                               NtOpenKey	C:\Windows\SysWOW64\ntdll.dll	469712	16	0	5	0	0	0	0	0	0	0
+        47	        36	   1131323	    0	      1	                         func@0x101142fe	C:\Windows\SysWOW64\KernelBase.dll	1131262	90	0	53	0	0	0	0	0	0	0
+        48	        47	   1132465	    0	      1	                         func@0x1011470b	C:\Windows\SysWOW64\KernelBase.dll	1132299	199	0	58	0	0	0	0	0	0	0
+        49	         9	     93408	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+        50	        49	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+        51	        50	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+        52	        51	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+        53	        52	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+        54	       587	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+        55	        54	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+        56	        55	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+        57	        56	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+        58	        57	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+        59	        58	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+        60	        59	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+        61	        60	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+        62	        61	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+        63	        62	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+        64	        63	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+        65	        64	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+        66	       611	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+        67	        66	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+        68	        67	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+        69	         9	     93772	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+        70	       569	     88356	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88328	120	88448	72	0	0	0	0	0	0	0
+        71	        70	     14833	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	14685	154	0	54	0	0	0	0	0	0	0
+        72	        71	     19227	    0	      1	                         func@0x10004754	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	18260	972	0	101	0	0	0	0	0	0	0
+        73	        70	     14801	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	14685	154	0	54	0	0	0	0	0	0	0
+        74	         9	     93795	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+        75	        74	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+        76	        75	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+        77	        76	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+        78	        77	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+        79	       589	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+        80	        79	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+        81	        80	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+        82	        81	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+        83	        82	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+        84	        83	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+        85	        84	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+        86	        85	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+        87	        86	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+        88	        87	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+        89	        88	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+        90	        89	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+        91	        90	   1175110	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+        92	        91	   1134001	    0	      1	                      GetConsoleOutputCP	C:\Windows\SysWOW64\KernelBase.dll	1133968	50	0	63	0	0	0	0	0	0	0
+        93	        92	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+        94	        93	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+        95	        94	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+        96	         9	     93901	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+        97	       571	     88438	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88328	120	88448	72	0	0	0	0	0	0	0
+        98	        97	     15174	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	15154	82	0	102	0	0	0	0	0	0	0
+        99	       571	     88356	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88328	120	88448	72	0	0	0	0	0	0	0
+       100	        99	     14833	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	14685	154	0	54	0	0	0	0	0	0	0
+       101	       100	     19133	    0	      1	                         func@0x10004754	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	18260	972	0	101	0	0	0	0	0	0	0
+       102	        99	     14695	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	14685	154	0	54	0	0	0	0	0	0	0
+       103	       102	     12933	    0	      1	                         func@0x10003285	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	12933	162	0	103	0	0	0	0	0	0	0
+       104	        97	     15230	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	15154	82	0	102	0	0	0	0	0	0	0
+       105	       104	     20263	    0	      1	                         func@0x10004d00	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	19712	756	0	104	0	0	0	0	0	0	0
+       106	       105	     13598	    0	      1	                         func@0x10003327	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	13095	954	0	105	0	0	0	0	0	0	0
+       107	       100	     18792	    0	      1	                         func@0x10004754	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	18260	972	0	101	0	0	0	0	0	0	0
+       108	       571	     88402	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88328	120	88448	72	0	0	0	0	0	0	0
+       109	       102	     12953	    0	      1	                         func@0x10003285	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	12933	162	0	103	0	0	0	0	0	0	0
+       110	       109	   1151938	    0	      1	                             TlsGetValue	C:\Windows\SysWOW64\KernelBase.dll	1151936	74	0	66	0	0	0	0	0	0	0
+       111	       109	   1151958	    0	      1	                             TlsGetValue	C:\Windows\SysWOW64\KernelBase.dll	1151936	74	0	66	0	0	0	0	0	0	0
+       112	       105	     13588	    0	      1	                         func@0x10003327	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	13095	954	0	105	0	0	0	0	0	0	0
+       113	       571	     88367	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88328	120	88448	72	0	0	0	0	0	0	0
+       114	       105	     13820	    0	      1	                         func@0x10003327	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\libittnotify.dll	13095	954	0	105	0	0	0	0	0	0	0
+       115	        99	  54076750	    0	      0	              [Outside any known module]	n/a	0	0	0	52	0	0	0	0	0	0	0
+       116	         9	     94041	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       117	       116	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       118	       117	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       119	       118	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       120	       119	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       121	       120	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       122	       121	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       123	       122	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       124	       123	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       125	       124	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       126	       125	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       127	       126	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       128	       127	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       129	       613	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       130	       129	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       131	       130	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       132	         9	     94390	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       133	       132	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+       134	       133	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+       135	       134	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+       136	       135	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+       137	       591	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+       138	       137	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+       139	       138	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       140	       139	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       141	       140	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       142	       141	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       143	       142	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       144	       143	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       145	       144	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       146	       145	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       147	       146	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       148	       147	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       149	       615	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       150	       149	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       151	       150	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       152	         9	     94519	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       153	       152	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+       154	       153	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+       155	       154	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+       156	       155	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+       157	       593	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+       158	       157	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+       159	       158	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       160	       159	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       161	       160	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       162	       161	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       163	       162	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       164	       163	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       165	       164	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       166	       165	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       167	       166	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       168	       167	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       169	       617	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       170	       169	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       171	       170	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       172	         9	     94754	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       173	       576	     89863	    1	      0	[Loop at line 72 in rightRectanglesMethod]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	89821	74	89895	75	0	0	0	0	0	0	0
+       174	         9	     94909	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       175	       174	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       176	       175	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       177	       176	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       178	       177	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       179	       178	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       180	       179	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       181	       180	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       182	       181	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       183	       182	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       184	       183	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       185	       184	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       186	       185	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       187	       619	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       188	       187	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       189	       188	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       190	         9	     95000	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       191	       190	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       192	       191	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       193	       192	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       194	       193	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       195	       194	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       196	       195	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       197	       196	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       198	       197	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       199	       198	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       200	       199	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       201	       200	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       202	       201	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       203	       202	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       204	       621	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       205	       204	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       206	       205	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       207	         9	     95239	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       208	       207	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       209	       208	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       210	       209	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       211	       210	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       212	       211	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       213	       212	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       214	       213	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       215	       214	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       216	       215	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       217	       216	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       218	       217	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       219	       218	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       220	       623	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       221	       220	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       222	       221	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       223	         9	     95295	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       224	       223	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       225	       224	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       226	       225	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       227	       226	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       228	       227	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       229	       228	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       230	       229	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       231	       230	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       232	       231	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       233	       232	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       234	       233	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       235	       234	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       236	       625	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       237	       236	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       238	       237	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       239	         9	     95745	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       240	       239	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+       241	       240	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+       242	       241	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+       243	       242	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+       244	       595	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+       245	       244	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+       246	       245	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       247	       246	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       248	       247	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       249	       248	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       250	       249	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       251	       250	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       252	       251	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       253	       252	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       254	       253	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       255	       254	   1181400	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       256	       255	   1178645	    0	      1	                         func@0x1011fb52	C:\Windows\SysWOW64\ucrtbased.dll	1178450	210	0	46	0	0	0	0	0	0	0
+       257	       256	   1141054	    0	      1	                          GetConsoleMode	C:\Windows\SysWOW64\KernelBase.dll	1141024	69	0	68	0	0	0	0	0	0	0
+       258	       257	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       259	       258	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       260	       259	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       261	         9	     95980	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       262	       578	     88694	    1	      0	[Loop at line 34 in leftRectanglesMethodNoVector]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88637	74	88711	80	0	0	0	0	0	0	0
+       263	       578	     88679	    1	      0	[Loop at line 34 in leftRectanglesMethodNoVector]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88637	74	88711	80	0	0	0	0	0	0	0
+       264	         9	     96003	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       265	       264	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+       266	       265	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+       267	       266	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+       268	       267	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+       269	       597	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+       270	       269	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+       271	       270	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       272	       271	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       273	       272	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       274	       273	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       275	       274	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       276	       275	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       277	       276	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       278	       277	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       279	       278	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       280	       279	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       281	       280	   1175110	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       282	       281	   1134001	    0	      1	                      GetConsoleOutputCP	C:\Windows\SysWOW64\KernelBase.dll	1133968	50	0	63	0	0	0	0	0	0	0
+       283	       282	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       284	       283	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       285	       284	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       286	       279	   1181400	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       287	       286	   1178645	    0	      1	                         func@0x1011fb52	C:\Windows\SysWOW64\ucrtbased.dll	1178450	210	0	46	0	0	0	0	0	0	0
+       288	       287	   1141054	    0	      1	                          GetConsoleMode	C:\Windows\SysWOW64\KernelBase.dll	1141024	69	0	68	0	0	0	0	0	0	0
+       289	       288	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       290	       289	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       291	       290	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       292	         9	     96140	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       293	       292	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       294	       293	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       295	       294	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       296	       295	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       297	       296	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       298	       297	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       299	       298	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       300	       299	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       301	       300	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       302	       301	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       303	       302	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       304	       303	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       305	       627	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       306	       305	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       307	       306	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       308	         9	     96257	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       309	       308	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       310	       309	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       311	       310	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       312	       311	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       313	       312	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       314	       313	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       315	       314	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       316	       315	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       317	       316	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       318	       317	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       319	       318	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       320	       319	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       321	       320	   1181400	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       322	       321	   1178645	    0	      1	                         func@0x1011fb52	C:\Windows\SysWOW64\ucrtbased.dll	1178450	210	0	46	0	0	0	0	0	0	0
+       323	       322	   1141054	    0	      1	                          GetConsoleMode	C:\Windows\SysWOW64\KernelBase.dll	1141024	69	0	68	0	0	0	0	0	0	0
+       324	       323	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       325	       324	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       326	       325	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       327	         9	     96644	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       328	       327	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       329	       328	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       330	       329	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       331	       330	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       332	       331	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       333	       332	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       334	       333	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       335	       334	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       336	       335	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       337	       336	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       338	       337	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       339	       338	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       340	       339	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       341	       340	   1175110	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       342	       341	   1134001	    0	      1	                      GetConsoleOutputCP	C:\Windows\SysWOW64\KernelBase.dll	1133968	50	0	63	0	0	0	0	0	0	0
+       343	       342	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       344	       343	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       345	       344	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       346	         9	     96758	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       347	       346	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+       348	       347	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+       349	       348	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+       350	       349	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+       351	       599	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+       352	       351	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+       353	       352	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       354	       353	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       355	       354	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       356	       355	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       357	       356	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       358	       357	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       359	       358	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       360	       359	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       361	       360	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       362	       361	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       363	       362	   1175110	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       364	       363	   1134001	    0	      1	                      GetConsoleOutputCP	C:\Windows\SysWOW64\KernelBase.dll	1133968	50	0	63	0	0	0	0	0	0	0
+       365	       364	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       366	       365	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       367	       366	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       368	         9	     96864	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       369	       581	     90083	    1	      0	[Loop at line 85 in rightRectanglesMethodNoVector]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	90045	74	90119	82	0	0	0	0	0	0	0
+       370	         9	     97024	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       371	       370	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       372	       371	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       373	       372	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       374	       373	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       375	       374	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       376	       375	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       377	       376	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       378	       377	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       379	       378	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       380	       379	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       381	       380	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       382	       381	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       383	       629	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       384	       383	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       385	       384	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       386	         9	     97074	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       387	       386	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       388	       387	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       389	       388	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       390	       389	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       391	       390	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       392	       391	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       393	       392	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       394	       393	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       395	       394	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       396	       395	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       397	       396	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       398	       397	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       399	       398	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       400	       631	   1177939	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177881	63	0	36	0	0	0	0	0	0	0
+       401	       400	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       402	       401	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       403	         9	     97311	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       404	       403	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       405	       404	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       406	       405	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       407	       406	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       408	       407	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       409	       408	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       410	       409	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       411	       410	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       412	       411	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       413	       412	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       414	       413	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       415	       414	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       416	       415	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       417	       633	   1177939	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177881	63	0	36	0	0	0	0	0	0	0
+       418	       417	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       419	       418	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       420	         9	     97660	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       421	       583	     88908	    1	      0	[Loop at line 47 in leftRectanglesMethodQPar]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88861	74	88935	84	0	0	0	0	0	0	0
+       422	         9	     97789	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       423	       585	     88908	    1	      0	[Loop at line 47 in leftRectanglesMethodQPar]	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88861	74	88935	84	0	0	0	0	0	0	0
+       424	         9	     97949	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       425	       424	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       426	       425	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       427	       426	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       428	       427	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       429	       428	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       430	       429	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       431	       430	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       432	       431	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       433	       432	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       434	       433	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       435	       434	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       436	       435	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       437	       635	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       438	       437	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       439	       438	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       440	         9	     97960	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       441	       440	    417928	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	417616	470	0	71	0	0	0	0	0	0	0
+       442	       441	    465590	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SysWOW64\msvcp140d.dll	465520	80	0	77	0	0	0	0	0	0	0
+       443	       442	    150253	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SysWOW64\msvcp140d.dll	149808	494	0	78	0	0	0	0	0	0	0
+       444	       443	    133497	    0	      1	                         func@0x1002075f	C:\Windows\SysWOW64\msvcp140d.dll	132959	653	0	89	0	0	0	0	0	0	0
+       445	       601	    144753	    1	      1	[Loop@0x10023536 in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SysWOW64\msvcp140d.dll	144694	62	0	90	0	0	0	0	0	0	0
+       446	       445	    131047	    0	      1	                         func@0x1001ffc0	C:\Windows\SysWOW64\msvcp140d.dll	131008	89	0	92	0	0	0	0	0	0	0
+       447	       446	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       448	       447	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       449	       448	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       450	       449	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       451	       450	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       452	       451	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       453	       452	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       454	       453	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       455	       454	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       456	       455	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       457	       456	   1175110	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       458	       457	   1134001	    0	      1	                      GetConsoleOutputCP	C:\Windows\SysWOW64\KernelBase.dll	1133968	50	0	63	0	0	0	0	0	0	0
+       459	       458	   1134055	    0	      1	                         func@0x10114dc2	C:\Windows\SysWOW64\KernelBase.dll	1134018	43	0	64	0	0	0	0	0	0	0
+       460	       459	   1134289	    0	      1	                         func@0x10114ded	C:\Windows\SysWOW64\KernelBase.dll	1134061	259	0	65	0	0	0	0	0	0	0
+       461	       460	    469548	    0	      1	                   NtDeviceIoControlFile	C:\Windows\SysWOW64\ntdll.dll	469536	16	0	7	0	0	0	0	0	0	0
+       462	         9	     98040	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       463	       462	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       464	       463	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       465	       464	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       466	       465	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       467	       466	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       468	       467	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       469	       468	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       470	       469	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       471	       470	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       472	       471	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       473	       472	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       474	       473	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       475	       474	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       476	       637	   1177939	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177881	63	0	36	0	0	0	0	0	0	0
+       477	       476	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       478	       477	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       479	         9	     98140	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       480	       479	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       481	       480	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       482	       481	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       483	       482	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       484	       483	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       485	       484	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       486	       485	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       487	       486	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       488	       487	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       489	       488	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       490	       489	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       491	       490	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       492	       491	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       493	       639	   1177939	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177881	63	0	36	0	0	0	0	0	0	0
+       494	       493	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       495	       494	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       496	         9	     98175	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       497	       496	     78373	    0	      0	std::thread::thread<double (&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	78272	127	0	86	0	0	0	0	0	0	0
+       498	       497	     82680	    0	      0	std::thread::_Start<double (&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	82448	394	0	87	0	0	0	0	0	0	0
+       499	       498	    686949	    0	      1	                           beginthreadex	C:\Windows\SysWOW64\ucrtbased.dll	686720	317	0	47	0	0	0	0	0	0	0
+       500	         9	     98193	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       501	       500	     87972	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	87872	169	0	88	0	0	0	0	0	0	0
+       502	       501	    160659	    0	      1	                               Thrd_join	C:\Windows\SysWOW64\msvcp140d.dll	160640	101	0	100	0	0	0	0	0	0	0
+       503	       603	   1115416	    1	      1	[Loop@0x10110510 in WaitForSingleObjectEx]	C:\Windows\SysWOW64\KernelBase.dll	1115408	26	0	69	0	0	0	0	0	0	0
+       504	       503	    469500	    0	      1	                   NtWaitForSingleObject	C:\Windows\SysWOW64\ntdll.dll	469488	16	0	8	0	0	0	0	0	0	0
+       505	         9	     98254	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       506	       505	     78373	    0	      0	std::thread::thread<double (&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	78272	127	0	86	0	0	0	0	0	0	0
+       507	       506	     82680	    0	      0	std::thread::_Start<double (&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	82448	394	0	87	0	0	0	0	0	0	0
+       508	       507	    686949	    0	      1	                           beginthreadex	C:\Windows\SysWOW64\ucrtbased.dll	686720	317	0	47	0	0	0	0	0	0	0
+       509	         9	     98330	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       510	       509	     78373	    0	      0	std::thread::thread<double (&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	78272	127	0	86	0	0	0	0	0	0	0
+       511	       510	     82680	    0	      0	std::thread::_Start<double (&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	82448	394	0	87	0	0	0	0	0	0	0
+       512	       511	    686949	    0	      1	                           beginthreadex	C:\Windows\SysWOW64\ucrtbased.dll	686720	317	0	47	0	0	0	0	0	0	0
+       513	         9	     98345	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       514	       513	     87972	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	87872	169	0	88	0	0	0	0	0	0	0
+       515	       514	    160659	    0	      1	                               Thrd_join	C:\Windows\SysWOW64\msvcp140d.dll	160640	101	0	100	0	0	0	0	0	0	0
+       516	       605	   1115416	    1	      1	[Loop@0x10110510 in WaitForSingleObjectEx]	C:\Windows\SysWOW64\KernelBase.dll	1115408	26	0	69	0	0	0	0	0	0	0
+       517	       516	    469500	    0	      1	                   NtWaitForSingleObject	C:\Windows\SysWOW64\ntdll.dll	469488	16	0	8	0	0	0	0	0	0	0
+       518	         9	     98406	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       519	       518	     78373	    0	      0	std::thread::thread<double (&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	78272	127	0	86	0	0	0	0	0	0	0
+       520	       519	     82680	    0	      0	std::thread::_Start<double (&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	82448	394	0	87	0	0	0	0	0	0	0
+       521	       520	    686949	    0	      1	                           beginthreadex	C:\Windows\SysWOW64\ucrtbased.dll	686720	317	0	47	0	0	0	0	0	0	0
+       522	         9	     98421	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       523	       522	     87972	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	87872	169	0	88	0	0	0	0	0	0	0
+       524	       523	    160659	    0	      1	                               Thrd_join	C:\Windows\SysWOW64\msvcp140d.dll	160640	101	0	100	0	0	0	0	0	0	0
+       525	       607	   1115416	    1	      1	[Loop@0x10110510 in WaitForSingleObjectEx]	C:\Windows\SysWOW64\KernelBase.dll	1115408	26	0	69	0	0	0	0	0	0	0
+       526	       525	    469500	    0	      1	                   NtWaitForSingleObject	C:\Windows\SysWOW64\ntdll.dll	469488	16	0	8	0	0	0	0	0	0	0
+       527	         9	     98482	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       528	       527	     78373	    0	      0	std::thread::thread<double (&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	78272	127	0	86	0	0	0	0	0	0	0
+       529	       528	     82680	    0	      0	std::thread::_Start<double (&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	82448	394	0	87	0	0	0	0	0	0	0
+       530	       529	    686949	    0	      1	                           beginthreadex	C:\Windows\SysWOW64\ucrtbased.dll	686720	317	0	47	0	0	0	0	0	0	0
+       531	         9	     98497	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       532	       531	     87972	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	87872	169	0	88	0	0	0	0	0	0	0
+       533	       532	    160659	    0	      1	                               Thrd_join	C:\Windows\SysWOW64\msvcp140d.dll	160640	101	0	100	0	0	0	0	0	0	0
+       534	       609	   1115416	    1	      1	[Loop@0x10110510 in WaitForSingleObjectEx]	C:\Windows\SysWOW64\KernelBase.dll	1115408	26	0	69	0	0	0	0	0	0	0
+       535	       534	    469500	    0	      1	                   NtWaitForSingleObject	C:\Windows\SysWOW64\ntdll.dll	469488	16	0	8	0	0	0	0	0	0	0
+       536	         9	     98612	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       537	       536	     80864	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	80176	1196	0	74	0	0	0	0	0	0	0
+       538	       537	    477588	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\Windows\SysWOW64\msvcp140d.dll	477536	59	0	96	0	0	0	0	0	0	0
+       539	       538	    113196	    0	      1	                         func@0x1001b940	C:\Windows\SysWOW64\msvcp140d.dll	112960	276	0	97	0	0	0	0	0	0	0
+       540	       539	    718945	    0	      1	                                  fwrite	C:\Windows\SysWOW64\ucrtbased.dll	718768	185	0	38	0	0	0	0	0	0	0
+       541	       540	    717405	    0	      1	                         func@0x100af230	C:\Windows\SysWOW64\ucrtbased.dll	717360	50	0	40	0	0	0	0	0	0	0
+       542	       541	    717298	    0	      1	                         func@0x100af1a0	C:\Windows\SysWOW64\ucrtbased.dll	717216	100	0	41	0	0	0	0	0	0	0
+       543	       542	    717504	    0	      1	                         func@0x100af270	C:\Windows\SysWOW64\ucrtbased.dll	717424	88	0	42	0	0	0	0	0	0	0
+       544	       543	    705243	    0	      1	                         func@0x100ac2c0	C:\Windows\SysWOW64\ucrtbased.dll	705216	35	0	43	0	0	0	0	0	0	0
+       545	       544	    904152	    0	      1	                         func@0x100dcba0	C:\Windows\SysWOW64\ucrtbased.dll	904096	121	0	44	0	0	0	0	0	0	0
+       546	       545	    697370	    0	      1	                         func@0x100aa392	C:\Windows\SysWOW64\ucrtbased.dll	697234	200	0	45	0	0	0	0	0	0	0
+       547	       546	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       548	       547	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       549	       641	   1177724	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177692	37	0	36	0	0	0	0	0	0	0
+       550	       549	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       551	       550	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       552	         9	     98647	    0	      0	                                    main	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	93088	6239	0	67	0	0	0	0	0	0	0
+       553	       552	    418612	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SysWOW64\msvcp140d.dll	418576	46	0	98	0	0	0	0	0	0	0
+       554	       553	     83405	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	83328	126	0	79	0	0	0	0	0	0	0
+       555	       554	    464513	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\Windows\SysWOW64\msvcp140d.dll	464368	317	0	99	0	0	0	0	0	0	0
+       556	       555	    153233	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SysWOW64\msvcp140d.dll	153104	142	0	93	0	0	0	0	0	0	0
+       557	       556	    106147	    0	      1	                         func@0x10019dd0	C:\Windows\SysWOW64\msvcp140d.dll	105936	487	0	94	0	0	0	0	0	0	0
+       558	       557	     65442	    0	      1	                         func@0x1000ff90	C:\Windows\SysWOW64\msvcp140d.dll	65424	50	0	95	0	0	0	0	0	0	0
+       559	       558	    704835	    0	      1	                                   fputc	C:\Windows\SysWOW64\ucrtbased.dll	704320	536	0	28	0	0	0	0	0	0	0
+       560	       559	    704174	    0	      1	                            fputc_nolock	C:\Windows\SysWOW64\ucrtbased.dll	704096	137	0	30	0	0	0	0	0	0	0
+       561	       560	    903037	    0	      1	                         func@0x100dc760	C:\Windows\SysWOW64\ucrtbased.dll	903008	37	0	31	0	0	0	0	0	0	0
+       562	       561	    901419	    0	      1	                         func@0x100dbfa0	C:\Windows\SysWOW64\ucrtbased.dll	901024	434	0	32	0	0	0	0	0	0	0
+       563	       562	    902317	    0	      1	                         func@0x100dc320	C:\Windows\SysWOW64\ucrtbased.dll	901920	430	0	33	0	0	0	0	0	0	0
+       564	       563	   1180892	    0	      1	                                   write	C:\Windows\SysWOW64\ucrtbased.dll	1180368	545	0	34	0	0	0	0	0	0	0
+       565	       564	   1181468	    0	      1	                         func@0x10120520	C:\Windows\SysWOW64\ucrtbased.dll	1180960	1090	0	35	0	0	0	0	0	0	0
+       566	       643	   1177939	    1	      1	    [Loop@0x1011eea0 in func@0x1011ee00]	C:\Windows\SysWOW64\ucrtbased.dll	1177881	63	0	36	0	0	0	0	0	0	0
+       567	       566	   1107867	    0	      1	                               WriteFile	C:\Windows\SysWOW64\KernelBase.dll	1107680	250	0	61	0	0	0	0	0	0	0
+       568	       567	    469564	    0	      1	                             NtWriteFile	C:\Windows\SysWOW64\ntdll.dll	469552	16	0	6	0	0	0	0	0	0	0
+       569	        69	     88328	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       570	        69	     88356	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       571	        96	     88328	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       572	        96	     88438	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       573	        96	     88356	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       574	        96	     88402	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       575	        96	     88367	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88224	266	0	73	0	0	0	0	0	0	0
+       576	       172	     89821	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	89744	174	0	76	0	0	0	0	0	0	0
+       577	       172	     89863	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	89744	174	0	76	0	0	0	0	0	0	0
+       578	       261	     88637	    0	      0	            leftRectanglesMethodNoVector	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88560	174	0	81	0	0	0	0	0	0	0
+       579	       261	     88694	    0	      0	            leftRectanglesMethodNoVector	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88560	174	0	81	0	0	0	0	0	0	0
+       580	       261	     88679	    0	      0	            leftRectanglesMethodNoVector	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88560	174	0	81	0	0	0	0	0	0	0
+       581	       368	     90045	    0	      0	           rightRectanglesMethodNoVector	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	89968	174	0	83	0	0	0	0	0	0	0
+       582	       368	     90083	    0	      0	           rightRectanglesMethodNoVector	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	89968	174	0	83	0	0	0	0	0	0	0
+       583	       420	     88861	    0	      0	                leftRectanglesMethodQPar	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88784	174	0	85	0	0	0	0	0	0	0
+       584	       420	     88908	    0	      0	                leftRectanglesMethodQPar	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88784	174	0	85	0	0	0	0	0	0	0
+       585	       422	     88861	    0	      0	                leftRectanglesMethodQPar	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88784	174	0	85	0	0	0	0	0	0	0
+       586	       422	     88908	    0	      0	                leftRectanglesMethodQPar	C:\Users\HP\Desktop\Программирование приложений в системе IPS\DZ2\Debug\DZ2.exe	88784	174	0	85	0	0	0	0	0	0	0
+       587	        53	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       588	        53	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       589	        78	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       590	        78	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       591	       136	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       592	       136	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       593	       156	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       594	       156	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       595	       243	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       596	       243	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       597	       268	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       598	       268	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       599	       350	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       600	       350	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       601	       444	    144694	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       602	       444	    144753	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SysWOW64\msvcp140d.dll	144688	89	0	91	0	0	0	0	0	0	0
+       603	       502	   1115408	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       604	       502	   1115416	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       605	       515	   1115408	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       606	       515	   1115416	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       607	       524	   1115408	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       608	       524	   1115416	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       609	       533	   1115408	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       610	       533	   1115416	    0	      1	                   WaitForSingleObjectEx	C:\Windows\SysWOW64\KernelBase.dll	1115264	264	0	70	0	0	0	0	0	0	0
+       611	        65	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       612	        65	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       613	       128	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       614	       128	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       615	       148	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       616	       148	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       617	       168	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       618	       168	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       619	       186	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       620	       186	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       621	       203	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       622	       203	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       623	       219	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       624	       219	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       625	       235	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       626	       235	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       627	       304	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       628	       304	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       629	       382	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       630	       382	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       631	       399	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       632	       399	   1177939	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       633	       416	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       634	       416	   1177939	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       635	       436	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       636	       436	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       637	       475	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       638	       475	   1177939	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       639	       492	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       640	       492	   1177939	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       641	       548	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       642	       548	   1177724	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       643	       565	   1175200	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       644	       565	   1177939	    0	      1	                         func@0x1011ee00	C:\Windows\SysWOW64\ucrtbased.dll	1175040	3122	0	37	0	0	0	0	0	0	0
+       645	        -1	         0	    0	      0	                      [Outside any loop]	n/a	0	0	0	106	0	0	0	0	0	0	0
