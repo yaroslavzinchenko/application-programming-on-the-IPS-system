@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r007ti3\r007ti3.inspxe </message>
+ <nop/>
+ <message severity="info">Found target process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe (PID = 17768). Analysis started... </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140.dll. </message>
+ <nop/>
+ <message severity="warning">Inspector does not support the Microsoft Parallel Patterns Library and may report false positives. Refer to the product release notes. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\msvcp140.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe (PID = 17768) has terminated. </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r007ti3\r007ti3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2021/06/18 16:07:33</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r003ti3\r003ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:33 2021</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe</arg>
+  <arg>1020</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:33 2021</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe</arg>
+  <arg>0x2e0000</arg>
+  <arg>0x2e7fff</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:33 2021</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x75bd0000</arg>
+  <arg>0x75cbffff</arg>
+  <arg>3</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:33 2021</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x76500000</arg>
+  <arg>0x76713fff</arg>
+  <arg>4</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:33 2021</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77630000</arg>
+  <arg>0x777d2fff</arg>
+  <arg>5</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:33 2021</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x75f20000</arg>
+  <arg>0x7603ffff</arg>
+  <arg>6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:35 2021</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\vcruntime140.dll</arg>
+  <arg>0x74a50000</arg>
+  <arg>0x74a63fff</arg>
+  <arg>7</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:36 2021</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\msvcp140.dll</arg>
+  <arg>0x79fa0000</arg>
+  <arg>0x7a00cfff</arg>
+  <arg>8</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:36 2021</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>UNSUPPORTED_MODULE</type>
+  <arg>Microsoft Parallel Patterns Library</arg>
+  <severity>WARNING</severity>
+  <timestamp>Fri Jun 18 16:07:38 2021</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6420,2800,18044,16168</arg>
+  <arg>1,1,1,1</arg>
+  <arg>446,563,1821,22139</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:40 2021</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6420,2800,18044,16168</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,69692</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:41 2021</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6420,2800,18044,16168</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,0,6878</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:42 2021</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x750b0000</arg>
+  <arg>0x750befff</arg>
+  <arg>9</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:43 2021</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x75950000</arg>
+  <arg>0x75a0efff</arg>
+  <arg>10</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:43 2021</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x75d30000</arg>
+  <arg>0x75deffff</arg>
+  <arg>11</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:43 2021</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>6420,2800,18044,16168</arg>
+  <arg>1,1,1,0</arg>
+  <arg>0,0,782,29182</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:43 2021</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>3</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>4</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>5</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\vcruntime140.dll</arg>
+  <arg>7</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\msvcp140.dll</arg>
+  <arg>8</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>9</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>10</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>11</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe</arg>
+  <arg>1020</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Fri Jun 18 16:07:44 2021</timestamp>
+</msg>
+<msg id="34" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="35" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r003ti3\r003ti3.inspxe</arg>
+</msg>
+<msg id="36" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="37" tool="runtool">
+  <type>log-end</type>
+  <arg>2021/06/18 16:07:48</arg>
+</msg>
+
+</log>
+

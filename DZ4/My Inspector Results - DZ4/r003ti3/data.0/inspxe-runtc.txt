@@ -1,0 +1,31 @@
+
+=== Start: [2021/06/18 16:07:33] === 
+Analysis started...
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r003ti3\r003ti3.inspxe 
+Found target process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe (PID = 1020). Analysis started... 
+Loaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe. 
+Loaded module: c:\windows\syswow64\kernel32.dll. 
+Loaded module: c:\windows\syswow64\kernelbase.dll. 
+Loaded module: c:\windows\syswow64\ntdll.dll. 
+Loaded module: c:\windows\syswow64\ucrtbase.dll. 
+Loaded module: c:\windows\syswow64\vcruntime140.dll. 
+Loaded module: c:\windows\syswow64\msvcp140.dll. 
+Warning: Inspector does not support the Microsoft Parallel Patterns Library and may report false positives. Refer to the product release notes. 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll. 
+Loaded module: c:\windows\syswow64\msvcrt.dll. 
+Loaded module: c:\windows\syswow64\rpcrt4.dll. 
+Unloaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe. 
+Unloaded module: c:\windows\syswow64\kernel32.dll. 
+Unloaded module: c:\windows\syswow64\kernelbase.dll. 
+Unloaded module: c:\windows\syswow64\ntdll.dll. 
+Unloaded module: c:\windows\syswow64\ucrtbase.dll. 
+Unloaded module: c:\windows\syswow64\vcruntime140.dll. 
+Unloaded module: c:\windows\syswow64\msvcp140.dll. 
+Unloaded module: c:\windows\syswow64\kernel.appcore.dll. 
+Unloaded module: c:\windows\syswow64\msvcrt.dll. 
+Unloaded module: c:\windows\syswow64\rpcrt4.dll. 
+Process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\release\dz4.exe (PID = 1020) has terminated. 
+Application exit code: 0 
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r003ti3\r003ti3.inspxe 
+Analysis completed
+=== End: [2021/06/18 16:07:48] === 

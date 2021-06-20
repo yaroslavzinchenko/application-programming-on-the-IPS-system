@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream" md5="1af5377cbadd43f1799c747ce9a02bc8">
+    <snippet line="756">
+      <line line="753">        }</line>
+      <line line="754"/>
+      <line line="755">        if (_State == ios_base::goodbit &amp;&amp; _Ostr.rdbuf()-&gt;sputn(_Val, _Count) != _Count) {</line>
+      <line line="756">            _State |= ios_base::badbit;</line>
+      <line line="757">        }</line>
+    </snippet>
+  </file>
+  <file name="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\DZ4.cpp" md5="6ba036c6d92489290d1214b44e916b2a">
+    <snippet line="54">
+      <line line="51"/>
+      <line line="52">    chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();</line>
+      <line line="53">    cout &lt;&lt; leftRectanglesMethod(a, b, h) &lt;&lt; endl;</line>
+      <line line="54">    chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();</line>
+      <line line="55"/>
+    </snippet>
+  </file>
+</snippets>

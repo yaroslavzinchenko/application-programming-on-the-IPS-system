@@ -48,16 +48,14 @@ double leftRectanglesMethodQPar(double a, double b, double h)
 	return area;
 }
 
-double leftRectanglesMethodThreaded(double a, double b, double h)
+void leftRectanglesMethodThreaded(double a, double b, double h, double &area)
 {
-	double area = h * (8 / (1 + a * a));
+	area = h * (8 / (1 + a * a));
 	while (a < b)
 	{
 		area = area + h * (8 / (1 + a * a));
 		a = a + h;
 	}
-
-	return area;
 }
 
 // В отличие от метода левых прямоугольников, идём справа налево, а не слева направо.
@@ -114,7 +112,7 @@ int main()
 	h = (b - a) / n;
 	cout << leftRectanglesMethod(a, b, h) << endl;
 
-	n = 100000;
+	n = 1000000;
 	h = (b - a) / n;
 	cout << leftRectanglesMethod(a, b, h) << endl;
 
@@ -267,39 +265,30 @@ int main()
 
 
 
-	cout << "Считаем на одном потоке: " << endl;
-	t1 = chrono::high_resolution_clock::now();
 
-	n = 100;
-	h = (b - a) / n;
+	cout << "Метод левых прямоугольников на 4-х потоках:" << endl;
 
-	cout << "Метод левых прямоугольников на одном потоке:" << endl;
-	std::thread thr(leftRectanglesMethodThreaded, a, b, h);
-	thr.join();
-
-	n = 1000;
-	h = (b - a) / n;
-	std::thread thr2(leftRectanglesMethodThreaded, a, b, h);
-	thr2.join();
-
-	n = 10000;
-	h = (b - a) / n;
-	std::thread thr3(leftRectanglesMethodThreaded, a, b, h);
-	thr3.join();
-
-	n = 100000;
-	h = (b - a) / n;
-	std::thread thr4(leftRectanglesMethodThreaded, a, b, h);
-	thr4.join();
-
+	double area1 = 0;
+	double area2 = 0;
+	double area3 = 0;
+	double area4 = 0;
 	n = 1000000;
 	h = (b - a) / n;
-	std::thread thr5(leftRectanglesMethodThreaded, a, b, h);
-	thr5.join();
+	t1 = chrono::high_resolution_clock::now();
+	std::thread thr51(leftRectanglesMethodThreaded, 0, 0.25, h, std::ref(area1));
+	std::thread thr52(leftRectanglesMethodThreaded, 0.25, 0.5, h, std::ref(area2));
+	std::thread thr53(leftRectanglesMethodThreaded, 0.5, 0.75, h, std::ref(area3));
+	std::thread thr54(leftRectanglesMethodThreaded, 0.75, 1, h, std::ref(area4));
+	thr51.join();
+	thr52.join();
+	thr53.join();
+	thr54.join();
+	double area = area1 + area2 + area3 + area4;
+	cout << area << endl;
 
 	t2 = chrono::high_resolution_clock::now();
 	chrono::duration <double> durationLeftRectanglesThreaded = (t2 - t1);
-	cout << "Время подсчёта методом левых прямоугольников на одном потоке: " << durationLeftRectanglesThreaded.count() << " секунд." << endl << endl;
+	cout << "Время подсчёта методом левых прямоугольников на 4-х потоках: " << durationLeftRectanglesThreaded.count() << " секунд." << endl << endl;
 
 
 

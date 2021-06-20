@@ -1,0 +1,19 @@
+-r
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r006mi3
+--access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-on-exit
+--leak-check-on-demand
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=1000000
+--guard-zone-size=32
+--stack-depth=16
+--no-close-console
+--mrte-mode=auto
+--offload-target=default
+--heartbeat=1
+--enable-memory-growth
+--
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Release\DZ4.exe

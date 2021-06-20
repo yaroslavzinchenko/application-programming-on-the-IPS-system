@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream" md5="1af5377cbadd43f1799c747ce9a02bc8">
+    <snippet line="756">
+      <line line="753">        }</line>
+      <line line="754"/>
+      <line line="755">        if (_State == ios_base::goodbit &amp;&amp; _Ostr.rdbuf()-&gt;sputn(_Val, _Count) != _Count) {</line>
+      <line line="756">            _State |= ios_base::badbit;</line>
+      <line line="757">        }</line>
+    </snippet>
+  </file>
+</snippets>
