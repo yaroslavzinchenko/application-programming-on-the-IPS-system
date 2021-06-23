@@ -1,0 +1,221 @@
+259280	mov edi, edi
+259282	push ebp
+259283	mov ebp, esp
+259285	and esp, 0xfffffff8
+259288	sub esp, 0x54
+259291	mov eax, dword ptr [0x101102d0]
+259296	xor eax, esp
+259298	mov dword ptr [esp+0x50], eax
+259302	push ebx
+259303	push esi
+259304	mov esi, dword ptr [ebp+0x8]
+259307	xor ebx, ebx
+259309	push edi
+259310	mov dword ptr [esp+0x24], esi
+259314	mov edi, ebx
+259316	mov dword ptr [esp+0xc], ebx
+259320	mov ecx, dword ptr [esi+0xa8]
+259326	mov dword ptr [esp+0x10], ebx
+259330	mov dword ptr [esp+0x14], ebx
+259334	mov dword ptr [esp+0x2c], esi
+259338	mov dword ptr [esp+0x30], ebx
+259342	test ecx, ecx
+259344	jz 0x3f790
+259350	lea eax, ptr [esi+0x8]
+259353	mov dword ptr [esp+0x20], ebx
+259357	cmp dword ptr [eax], ebx
+259359	jz 0x7a4c3
+259365	push 0x4
+259367	push 0x1
+259369	call 0x31990 <_calloc_base>
+259374	push ebx
+259375	mov dword ptr [esp+0x2c], eax
+259379	call 0x33c80 <_free_base>
+259384	add esp, 0xc
+259387	mov edi, 0x180
+259392	push 0x2
+259394	push edi
+259395	call 0x31990 <_calloc_base>
+259400	push ebx
+259401	mov dword ptr [esp+0x18], eax
+259405	call 0x33c80 <_free_base>
+259410	add esp, 0xc
+259413	push 0x1
+259415	push edi
+259416	call 0x31990 <_calloc_base>
+259421	mov edi, eax
+259423	push ebx
+259424	mov dword ptr [esp+0x24], edi
+259428	call 0x33c80 <_free_base>
+259433	add esp, 0xc
+259436	push 0x1
+259438	push 0x180
+259443	call 0x31990 <_calloc_base>
+259448	push ebx
+259449	mov dword ptr [esp+0x1c], eax
+259453	call 0x33c80 <_free_base>
+259458	add esp, 0xc
+259461	push 0x1
+259463	push 0x101
+259468	call 0x31990 <_calloc_base>
+259473	push ebx
+259474	mov dword ptr [esp+0x20], eax
+259478	call 0x33c80 <_free_base>
+259483	add esp, 0xc
+259486	cmp dword ptr [esp+0x20], ebx
+259490	jz 0x7a4e0
+259496	cmp dword ptr [esp+0xc], ebx
+259500	jz 0x7a4e0
+259506	mov ecx, dword ptr [esp+0x14]
+259510	test ecx, ecx
+259512	jz 0x7a4e0
+259518	test edi, edi
+259520	jz 0x7a4e0
+259526	cmp dword ptr [esp+0x10], ebx
+259530	jz 0x7a4e0
+259536	mov eax, ebx
+259538	mov byte ptr [eax+ecx*1], al
+259541	inc eax
+259542	cmp eax, 0x100
+259547	jl 0x3f5d2
+259549	lea eax, ptr [esp+0x48]
+259553	push eax
+259554	push dword ptr [esi+0x8]
+259557	call dword ptr [0x10112144]
+259563	test eax, eax
+259565	jz 0x7a4e0
+259571	mov eax, dword ptr [esp+0x48]
+259575	cmp eax, 0x5
+259578	jnbe 0x7a4e0
+259584	movzx eax, ax
+259587	mov dword ptr [esp+0x28], eax
+259591	cmp eax, 0x1
+259594	jnbe 0x7a50d
+259600	mov ecx, dword ptr [esp+0x14]
+259604	lea eax, ptr [edi+0x81]
+259610	push ebx
+259611	push dword ptr [esi+0x8]
+259614	mov edx, 0xff
+259619	inc ecx
+259620	push edx
+259621	push eax
+259622	push edx
+259623	push ecx
+259624	push 0x100
+259629	push dword ptr [esi+0xa8]
+259635	mov dword ptr [esp+0x3c], ecx
+259639	push ebx
+259640	call 0x2bd22
+259645	add esp, 0x24
+259648	test eax, eax
+259650	jz 0x7a4e0
+259656	mov eax, dword ptr [esp+0x10]
+259660	mov ecx, 0xff
+259665	push ebx
+259666	push dword ptr [esi+0x8]
+259669	add eax, 0x81
+259674	push ecx
+259675	push eax
+259676	push ecx
+259677	push dword ptr [esp+0x30]
+259681	push 0x200
+259686	push dword ptr [esi+0xa8]
+259692	push ebx
+259693	call 0x2bd22
+259698	add esp, 0x24
+259701	test eax, eax
+259703	jz 0x7a4e0
+259709	mov eax, dword ptr [esp+0xc]
+259713	xor ecx, ecx
+259715	push ebx
+259716	push dword ptr [esi+0x8]
+259719	add eax, 0x100
+259724	push eax
+259725	push 0x100
+259730	push dword ptr [esp+0x24]
+259734	mov dword ptr [esp+0x50], eax
+259738	call 0x2bd7b
+259743	add esp, 0x14
+259746	test eax, eax
+259748	jz 0x7a4e0
+259754	mov eax, dword ptr [esp+0xc]
+259758	xor edx, edx
+259760	cmp dword ptr [esp+0x28], 0x1
+259765	lea ecx, ptr [eax+0xfe]
+259771	mov word ptr [ecx], dx
+259774	mov edx, dword ptr [esp+0x18]
+259778	mov dword ptr [esp+0x40], ecx
+259782	mov ecx, dword ptr [esp+0x10]
+259786	lea edi, ptr [edx+0x80]
+259792	mov byte ptr [edx+0x7f], bl
+259795	mov dword ptr [esp+0x44], edi
+259799	mov byte ptr [ecx+0x7f], bl
+259802	mov byte ptr [edi], bl
+259804	lea edi, ptr [ecx+0x80]
+259810	mov dword ptr [esp+0x2c], edi
+259814	mov byte ptr [edi], bl
+259816	jnbe 0x7a572
+259822	mov eax, dword ptr [esp+0xc]
+259826	mov edi, eax
+259828	push 0x3f
+259830	pop ecx
+259831	push 0x1f
+259833	lea esi, ptr [eax+0x200]
+259839	mov eax, dword ptr [esp+0x14]
+259843	rep movsd dword ptr [edi], dword ptr [esi]
+259845	pop ecx
+259846	push 0x1f
+259848	movsw word ptr [edi], word ptr [esi]
+259850	lea esi, ptr [edx+0x100]
+259856	mov edi, edx
+259858	rep movsd dword ptr [edi], dword ptr [esi]
+259860	pop ecx
+259861	movsw word ptr [edi], word ptr [esi]
+259863	movsb byte ptr [edi], byte ptr [esi]
+259864	lea esi, ptr [eax+0x100]
+259870	mov edi, eax
+259872	rep movsd dword ptr [edi], dword ptr [esi]
+259874	movsw word ptr [edi], word ptr [esi]
+259876	movsb byte ptr [edi], byte ptr [esi]
+259877	mov esi, dword ptr [esp+0x24]
+259881	mov ecx, dword ptr [esi+0x8c]
+259887	test ecx, ecx
+259889	jnz 0x7a654
+259895	mov eax, dword ptr [esp+0x20]
+259899	mov dword ptr [eax], 0x1
+259905	mov dword ptr [esi+0x8c], eax
+259911	mov eax, dword ptr [esp+0x3c]
+259915	mov dword ptr [esi], eax
+259917	mov eax, dword ptr [esp+0x40]
+259921	mov dword ptr [esi+0x90], eax
+259927	mov eax, dword ptr [esp+0x44]
+259931	mov dword ptr [esi+0x94], eax
+259937	mov eax, dword ptr [esp+0x2c]
+259941	mov dword ptr [esi+0x98], eax
+259947	mov eax, dword ptr [esp+0x28]
+259951	mov dword ptr [esi+0x4], eax
+259954	push dword ptr [esp+0x14]
+259958	call 0x33c80 <_free_base>
+259963	pop ecx
+259964	mov eax, ebx
+259966	mov ecx, dword ptr [esp+0x5c]
+259970	pop edi
+259971	pop esi
+259972	pop ebx
+259973	xor ecx, esp
+259975	call 0x61f20
+259980	mov esp, ebp
+259982	pop ebp
+259983	ret 
+259984	mov eax, dword ptr [esi+0x8c]
+259990	test eax, eax
+259992	jz 0x3f79d
+259994	lock dec dword ptr [eax]
+259997	mov dword ptr [esi+0x8c], ebx
+260003	xor eax, eax
+260005	mov dword ptr [esi+0x90], ebx
+260011	mov dword ptr [esi], 0x10007340
+260017	mov dword ptr [esi+0x94], 0x10007140
+260027	mov dword ptr [esi+0x98], 0x10006fc0
+260037	mov dword ptr [esi+0x4], 0x1
+260044	jmp 0x3f77e
