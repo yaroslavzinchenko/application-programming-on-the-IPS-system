@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp"
+           line_no="18"
+           routine="leftRectanglesMethod"
+           is_vectorized="0"
+           self_time="1.072064E-01"
+           total_time="1.189353E-01"
+           trip_counts=""
+           func_instance="17"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp"
+           line_no="73"
+           routine="rightRectanglesMethod"
+           is_vectorized="0"
+           self_time="9.027314E-02"
+           total_time="1.028796E-01"
+           trip_counts=""
+           func_instance="24"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp"
+           line_no="47"
+           routine="leftRectanglesMethodQPar"
+           is_vectorized="0"
+           self_time="4.312508E-03"
+           total_time="4.312508E-03"
+           trip_counts=""
+           func_instance="31"
+           priority="0"/>
+  <hotspot filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp"
+           line_no="34"
+           routine="leftRectanglesMethodNoVector"
+           is_vectorized="0"
+           self_time="4.239498E-03"
+           total_time="4.239498E-03"
+           trip_counts=""
+           func_instance="27"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

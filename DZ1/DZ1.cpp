@@ -228,13 +228,13 @@ int main()
 
 	
 
-	cout << "— параллелизацией на 2-х потоках: " << endl;
+	cout << "— параллелизацией на 4-х потоках с автоматическим параллелизатором: " << endl;
 	t1 = chrono::high_resolution_clock::now();
 
 	n = 100;
 	h = (b - a) / n;
 
-	cout << "ћетод левых пр€моугольников с параллелизацией на 2-х потоках:" << endl;
+	cout << "ћетод левых пр€моугольников с параллелизацией на 4-х потоках с автоматическим параллелизатором:" << endl;
 	cout << leftRectanglesMethodQPar(a, b, h) << endl;
 
 	n = 1000;
@@ -255,7 +255,7 @@ int main()
 
 	t2 = chrono::high_resolution_clock::now();
 	chrono::duration <double> durationLeftRectanglesQPar = (t2 - t1);
-	cout << "¬рем€ подсчЄта методом левых пр€моугольников с параллелизацией на 2-х потоках: " << durationLeftRectanglesQPar.count() << " секунд." << endl << endl;
+	cout << "¬рем€ подсчЄта методом левых пр€моугольников с параллелизацией на 4-х потоках с автоматическим параллелизатором: " << durationLeftRectanglesQPar.count() << " секунд." << endl << endl;
 
 
 	
