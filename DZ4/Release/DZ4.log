@@ -1,7 +1,2 @@
 ﻿  DZ4.cpp
-  Создание кода
-  0 of 24 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Создание кода завершено
-  DZ4.vcxproj -> C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Release\DZ4.exe
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\DZ4.cpp(28,1): error C3015: неверный вид инициализации в операторе For директивы OpenMP

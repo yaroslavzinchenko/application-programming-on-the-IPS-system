@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\DZ4.cpp" md5="ea9dd0e44b4dd0babd25c731d4142425">
+    <snippet line="69">
+      <line line="66"/>
+      <line line="67">    chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();</line>
+      <line line="68">    cout &lt;&lt; leftRectanglesMethod(a, b, h) &lt;&lt; endl;</line>
+      <line line="69">    chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();</line>
+      <line line="70"/>
+    </snippet>
+  </file>
+</snippets>

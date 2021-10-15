@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_SUITABILITY" 
+                             duration_total="6.235633E+00"
+                             num_processors="4" 
+                             num_mic_threads="128" 
+                             threading_paradigm="tbb" 
+                             target_system="cpu" 
+                             program_max_gain="1.356404E+00" >
+  <site filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" 
+        line_no="11" 
+        label="allWhileLoop">
+    <suitability duration_total="1.716874E-01" 
+                 num_instances="1">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="2.171086E-01" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" 
+        line_no="26" 
+        label="allWhileLoop2">
+    <suitability duration_total="2.679742E+00" 
+                 num_instances="4">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="9.958963E-01" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <task filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" 
+        line_no="14" 
+        label="eachIteration" 
+        duration_total="1.615465E-01" 
+        num_instances="1000000" />
+  <task filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" 
+        line_no="32" 
+        label="eachIteration2" 
+        duration_total="2.575501E+00" 
+        num_instances="1000001" />
+  <lock filename="" 
+        line_no="0" 
+        label="" 
+        duration_total="6.868707E-01" 
+        num_instances="1000005" />
+</IntelParallelAdvisorSummary >

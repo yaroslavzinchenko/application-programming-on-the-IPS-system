@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<snippets/>
+<snippets>
+  <file name="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" md5="">
+    <snippet line="11">
+      <line line="8">{</line>
+      <line line="9">	double area = h * (8 / (1 + a * a));</line>
+      <line line="10">	ANNOTATE_SITE_BEGIN(allWhileLoop);</line>
+      <line line="11">	while (a &lt; b)</line>
+      <line line="12">	{</line>
+    </snippet>
+  </file>
+</snippets>

@@ -1,0 +1,21 @@
+-r
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--itt-config=frame,task,event,counter,model
+--stackwalk=offline
+--mrte-type=java,dotnet,python
+--type=projection:stack
+--opencl-trace-mode=default
+--search-dir
+sym=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug
+--search-dir
+bin=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug
+--app-working-dir=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2
+--
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe

@@ -1,465 +1,333 @@
 # callstacks file version: 7
 #    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi
-         1	        -1	    478176	    0	      1	                        func@0x180074be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	478176	188	0	65	0	0	0	0	0	0	0
-         2	        -1	     70672	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	70672	5	0	2	0	0	0	0	0	0	0
-         3	        -1	    337488	    0	      1	                      RtlUserThreadStart	C:\WINDOWS\SYSTEM32\ntdll.dll	337456	72	0	4	0	0	0	0	0	0	0
-         4	         3	     94259	    0	      1	                     BaseThreadInitThunk	C:\WINDOWS\System32\KERNEL32.DLL	94240	67	0	63	0	0	0	0	0	0	0
-         5	         4	    100989	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	100976	19	0	2	0	0	0	0	0	0	0
-         6	         5	    100173	    0	      0	                       _scrt_common_main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	100160	19	0	6	0	0	0	0	0	0	0
-         7	         6	    100493	    0	      0	                   _scrt_common_main_seh	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	100192	414	0	7	0	0	0	0	0	0	0
-         8	         7	    100840	    0	      0	                             invoke_main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	100784	62	0	9	0	0	0	0	0	0	0
-         9	         8	     92763	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-        10	         9	    399250	    0	      1	                               setlocale	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399200	56	0	66	0	0	0	0	0	0	0
-        11	        10	    397689	    0	      1	                        func@0x180061130	C:\WINDOWS\SYSTEM32\ucrtbased.dll	397616	79	0	67	0	0	0	0	0	0	0
-        12	        11	    397573	    0	      1	                        func@0x1800610d0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	397520	79	0	68	0	0	0	0	0	0	0
-        13	        12	    397756	    0	      1	                        func@0x180061190	C:\WINDOWS\SYSTEM32\ucrtbased.dll	397712	1046	0	69	0	0	0	0	0	0	0
-        14	        13	    399164	    0	      1	                        func@0x1800615b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	398768	422	0	70	0	0	0	0	0	0	0
-        15	        14	    407785	    0	      1	                              wsetlocale	C:\WINDOWS\SYSTEM32\ucrtbased.dll	407456	343	0	71	0	0	0	0	0	0	0
-        16	        15	    400600	    0	      1	                        func@0x180061ca0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400544	63	0	72	0	0	0	0	0	0	0
-        17	        16	    400124	    0	      1	                        func@0x180061ad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400080	61	0	73	0	0	0	0	0	0	0
-        18	        17	    401989	    0	      1	                        func@0x180062150	C:\WINDOWS\SYSTEM32\ucrtbased.dll	401744	254	0	74	0	0	0	0	0	0	0
-        19	        18	    400425	    0	      1	                        func@0x180061be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400352	79	0	75	0	0	0	0	0	0	0
-        20	        19	    399964	    0	      1	                        func@0x180061a30	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399920	61	0	76	0	0	0	0	0	0	0
-        21	        20	    401468	    0	      1	                        func@0x180061fe0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	401376	357	0	77	0	0	0	0	0	0	0
-        22	        21	    409954	    0	      1	                        func@0x180063e00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	409088	1149	0	78	0	0	0	0	0	0	0
-        23	        22	    404875	    0	      1	                        func@0x180062b50	C:\WINDOWS\SYSTEM32\ucrtbased.dll	404304	1622	0	79	0	0	0	0	0	0	0
-        24	        23	    381049	    0	      1	                        func@0x18005cfb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	380848	996	0	80	0	0	0	0	0	0	0
-        25	        24	    378082	    0	      1	                        func@0x18005c460	C:\WINDOWS\SYSTEM32\ucrtbased.dll	377952	163	0	81	0	0	0	0	0	0	0
-        26	        25	    363984	    0	      1	                        func@0x180058d80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	363904	116	0	82	0	0	0	0	0	0	0
-        27	        26	    524082	    0	      1	                     EnumSystemLocalesEx	C:\WINDOWS\System32\KERNELBASE.dll	524048	40	0	3	0	0	0	0	0	0	0
-        28	        27	    105898	    0	      1	                        func@0x180019d61	C:\WINDOWS\System32\KERNELBASE.dll	105825	415	0	5	0	0	0	0	0	0	0
-        29	        28	    379855	    0	      1	                        func@0x18005cb60	C:\WINDOWS\SYSTEM32\ucrtbased.dll	379744	334	0	83	0	0	0	0	0	0	0
-        30	        29	    364704	    0	      1	                        func@0x180059050	C:\WINDOWS\SYSTEM32\ucrtbased.dll	364624	122	0	84	0	0	0	0	0	0	0
-        31	        30	    125494	    0	      1	                        func@0x18001e957	C:\WINDOWS\System32\KERNELBASE.dll	125271	298	0	15	0	0	0	0	0	0	0
-        32	        31	    211326	    0	      1	                        func@0x180033874	C:\WINDOWS\System32\KERNELBASE.dll	211060	315	0	16	0	0	0	0	0	0	0
-        33	        32	    101838	    0	      1	                        func@0x180018db4	C:\WINDOWS\System32\KERNELBASE.dll	101812	210	0	18	0	0	0	0	0	0	0
-        34	        33	    101756	    0	      1	                        func@0x180018d6c	C:\WINDOWS\System32\KERNELBASE.dll	101740	63	0	19	0	0	0	0	0	0	0
-        35	        32	    102052	    0	      1	                        func@0x180018e86	C:\WINDOWS\System32\KERNELBASE.dll	102022	57	0	20	0	0	0	0	0	0	0
-        36	        35	    112038	    0	      1	                        func@0x18001b4f6	C:\WINDOWS\System32\KERNELBASE.dll	111862	315	0	21	0	0	0	0	0	0	0
-        37	        36	    211290	    0	      1	                        func@0x180033874	C:\WINDOWS\System32\KERNELBASE.dll	211060	315	0	16	0	0	0	0	0	0	0
-        38	        37	    210487	    0	      1	                        func@0x1800334f8	C:\WINDOWS\System32\KERNELBASE.dll	210168	458	0	26	0	0	0	0	0	0	0
-        39	        38	    643172	    0	      1	                               NtOpenKey	C:\WINDOWS\SYSTEM32\ntdll.dll	643152	21	0	8	0	0	0	0	0	0	0
-        40	         8	     92803	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-        41	        40	     80764	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	1036	0	14	0	0	0	0	0	0	0
-        42	        41	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	48	0	0	0	0	0	0	0
-        43	        42	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	49	0	0	0	0	0	0	0
-        44	        43	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	85	0	0	0	0	0	0	0
-        45	        44	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	86	0	0	0	0	0	0	0
-        46	        45	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	87	0	0	0	0	0	0	0
-        47	        46	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	88	0	0	0	0	0	0	0
-        48	        47	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	89	0	0	0	0	0	0	0
-        49	        48	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	90	0	0	0	0	0	0	0
-        50	        49	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	91	0	0	0	0	0	0	0
-        51	        50	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-        52	        51	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-        53	       435	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-        54	        53	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-        55	        54	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-        56	         8	     93120	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-        57	        56	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	50	0	0	0	0	0	0	0
-        58	        57	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	51	0	0	0	0	0	0	0
-        59	        58	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	52	0	0	0	0	0	0	0
-        60	        59	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	53	0	0	0	0	0	0	0
-        61	       407	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	54	0	0	0	0	0	0	0
-        62	        61	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	56	0	0	0	0	0	0	0
-        63	        62	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-        64	        63	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-        65	        64	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-        66	        65	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-        67	        66	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-        68	        67	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-        69	        68	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-        70	        69	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-        71	        70	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-        72	        71	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-        73	        72	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	101	0	0	0	0	0	0	0
-        74	        73	    404735	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	404544	249	0	30	0	0	0	0	0	0	0
-        75	        74	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	11	0	0	0	0	0	0	0
-        76	         8	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	46	0	0	0	0	0	0	0
-        77	        76	 563561904	    0	      0	              [Outside any known module]	n/a	0	0	0	47	0	0	0	0	0	0	0
-        78	         8	     93286	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-        79	       419	     87733	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87583	156	87739	17	0	0	0	0	0	0	0
-        80	        79	     19167	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	1	0	0	0	0	0	0	0
-        81	        80	     24219	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	39	0	0	0	0	0	0	0
-        82	        80	     24575	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	39	0	0	0	0	0	0	0
-        83	        82	     17420	    0	      1	                        func@0x180004299	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	17049	778	0	40	0	0	0	0	0	0	0
-        84	        83	      4864	    0	      1	                     _itt_model_task_end	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	4846	32	0	41	0	0	0	0	0	0	0
-        85	        79	     19102	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	1	0	0	0	0	0	0	0
-        86	        85	     17039	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	42	0	0	0	0	0	0	0
-        87	       419	     87621	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87583	156	87739	17	0	0	0	0	0	0	0
-        88	        87	     18521	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	43	0	0	0	0	0	0	0
-        89	       419	     87665	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87583	156	87739	17	0	0	0	0	0	0	0
-        90	        87	     18692	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	43	0	0	0	0	0	0	0
-        91	        90	     23392	    0	      1	                        func@0x1800059d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	22992	868	0	44	0	0	0	0	0	0	0
-        92	        85	     16848	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	42	0	0	0	0	0	0	0
-        93	        85	     16874	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	42	0	0	0	0	0	0	0
-        94	        93	    156608	    0	      1	                        func@0x1800263c0	C:\WINDOWS\System32\KERNEL32.DLL	156608	86	0	64	0	0	0	0	0	0	0
-        95	       419	     87692	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87583	156	87739	17	0	0	0	0	0	0	0
-        96	       419	     87638	    1	      0	[Loop at line 18 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87583	156	87739	17	0	0	0	0	0	0	0
-        97	         8	     93474	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-        98	        97	    479025	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	478976	55	0	60	0	0	0	0	0	0	0
-        99	        98	     83268	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	83184	115	0	23	0	0	0	0	0	0	0
-       100	        99	    535227	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	535088	280	0	61	0	0	0	0	0	0	0
-       101	       100	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       102	       101	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       103	       102	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       104	       103	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       105	       104	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       106	       105	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       107	       106	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       108	       107	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       109	       108	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       110	       109	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       111	       110	   1108613	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       112	       111	    108726	    0	      1	                      GetConsoleOutputCP	C:\WINDOWS\System32\KERNELBASE.dll	108512	257	0	34	0	0	0	0	0	0	0
-       113	       112	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	11	0	0	0	0	0	0	0
-       114	         8	     93853	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       115	       425	     89493	    1	      0	[Loop at line 73 in rightRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89343	156	89499	24	0	0	0	0	0	0	0
-       116	       115	     19167	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	1	0	0	0	0	0	0	0
-       117	       116	     24155	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	39	0	0	0	0	0	0	0
-       118	         8	     93869	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       119	       118	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	50	0	0	0	0	0	0	0
-       120	       119	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	51	0	0	0	0	0	0	0
-       121	       120	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	52	0	0	0	0	0	0	0
-       122	       121	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	53	0	0	0	0	0	0	0
-       123	       409	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	54	0	0	0	0	0	0	0
-       124	       123	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	56	0	0	0	0	0	0	0
-       125	       124	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       126	       125	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       127	       126	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       128	       127	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       129	       128	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       130	       129	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       131	       130	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       132	       131	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       133	       132	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       134	       133	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       135	       437	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       136	       135	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       137	       136	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       138	         8	     93944	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       139	       427	     89493	    1	      0	[Loop at line 73 in rightRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89343	156	89499	24	0	0	0	0	0	0	0
-       140	       139	     19167	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	1	0	0	0	0	0	0	0
-       141	       140	     24575	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	39	0	0	0	0	0	0	0
-       142	       141	     17420	    0	      1	                        func@0x180004299	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	17049	778	0	40	0	0	0	0	0	0	0
-       143	       142	      4851	    0	      1	                     _itt_model_task_end	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	4846	32	0	41	0	0	0	0	0	0	0
-       144	       139	     19119	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	1	0	0	0	0	0	0	0
-       145	       144	     20086	    0	      1	       _itt_model_is_collection_disabled	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	20086	29	0	45	0	0	0	0	0	0	0
-       146	       427	     89381	    1	      0	[Loop at line 73 in rightRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89343	156	89499	24	0	0	0	0	0	0	0
-       147	       146	     18542	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	43	0	0	0	0	0	0	0
-       148	       147	     16883	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	42	0	0	0	0	0	0	0
-       149	       139	     19102	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	1	0	0	0	0	0	0	0
-       150	       149	     16874	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	42	0	0	0	0	0	0	0
-       151	       150	    156608	    0	      1	                        func@0x1800263c0	C:\WINDOWS\System32\KERNEL32.DLL	156608	86	0	64	0	0	0	0	0	0	0
-       152	       427	     89425	    1	      0	[Loop at line 73 in rightRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89343	156	89499	24	0	0	0	0	0	0	0
-       153	       140	     24120	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	39	0	0	0	0	0	0	0
-       154	       147	     16891	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	42	0	0	0	0	0	0	0
-       155	       146	     18521	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	43	0	0	0	0	0	0	0
-       156	         8	     94103	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       157	       156	     80764	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	1036	0	14	0	0	0	0	0	0	0
-       158	       157	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	48	0	0	0	0	0	0	0
-       159	       158	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	49	0	0	0	0	0	0	0
-       160	       159	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	85	0	0	0	0	0	0	0
-       161	       160	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	86	0	0	0	0	0	0	0
-       162	       161	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	87	0	0	0	0	0	0	0
-       163	       162	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	88	0	0	0	0	0	0	0
-       164	       163	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	89	0	0	0	0	0	0	0
-       165	       164	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	90	0	0	0	0	0	0	0
-       166	       165	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	91	0	0	0	0	0	0	0
-       167	       166	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       168	       167	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       169	       439	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       170	       169	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       171	       170	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       172	         8	     94341	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       173	       172	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	50	0	0	0	0	0	0	0
-       174	       173	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	51	0	0	0	0	0	0	0
-       175	       174	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	52	0	0	0	0	0	0	0
-       176	       175	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	53	0	0	0	0	0	0	0
-       177	       411	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	54	0	0	0	0	0	0	0
-       178	       177	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	56	0	0	0	0	0	0	0
-       179	       178	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       180	       179	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       181	       180	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       182	       181	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       183	       182	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       184	       183	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       185	       184	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       186	       185	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       187	       186	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       188	       187	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       189	       188	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	101	0	0	0	0	0	0	0
-       190	       189	    404735	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	404544	249	0	30	0	0	0	0	0	0	0
-       191	       190	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	11	0	0	0	0	0	0	0
-       192	         8	     94552	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       193	       192	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	50	0	0	0	0	0	0	0
-       194	       193	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	51	0	0	0	0	0	0	0
-       195	       194	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	52	0	0	0	0	0	0	0
-       196	       195	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	53	0	0	0	0	0	0	0
-       197	       413	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	54	0	0	0	0	0	0	0
-       198	       197	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	56	0	0	0	0	0	0	0
-       199	       198	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       200	       199	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       201	       200	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       202	       201	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       203	       202	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       204	       203	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       205	       204	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       206	       205	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       207	       206	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       208	       207	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       209	       208	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	101	0	0	0	0	0	0	0
-       210	       209	    404735	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	404544	249	0	30	0	0	0	0	0	0	0
-       211	       210	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	11	0	0	0	0	0	0	0
-       212	         8	     94900	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       213	       431	     88030	    1	      0	[Loop at line 34 in leftRectanglesMethodNoVector]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87966	122	88088	27	0	0	0	0	0	0	0
-       214	         8	     95051	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       215	       214	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	50	0	0	0	0	0	0	0
-       216	       215	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	51	0	0	0	0	0	0	0
-       217	       216	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	52	0	0	0	0	0	0	0
-       218	       217	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	53	0	0	0	0	0	0	0
-       219	       415	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	54	0	0	0	0	0	0	0
-       220	       219	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	56	0	0	0	0	0	0	0
-       221	       220	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       222	       221	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       223	       222	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       224	       223	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       225	       224	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       226	       225	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       227	       226	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       228	       227	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       229	       228	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       230	       229	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       231	       441	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       232	       231	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       233	       232	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       234	         8	     95318	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       235	       234	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	50	0	0	0	0	0	0	0
-       236	       235	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	51	0	0	0	0	0	0	0
-       237	       236	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	52	0	0	0	0	0	0	0
-       238	       237	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	53	0	0	0	0	0	0	0
-       239	       417	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	54	0	0	0	0	0	0	0
-       240	       239	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	56	0	0	0	0	0	0	0
-       241	       240	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       242	       241	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       243	       242	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       244	       243	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       245	       244	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       246	       245	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       247	       246	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       248	       247	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       249	       248	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       250	       249	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       251	       443	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       252	       251	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       253	       252	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       254	         8	     95516	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       255	       254	    479025	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	478976	55	0	60	0	0	0	0	0	0	0
-       256	       255	     83268	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	83184	115	0	23	0	0	0	0	0	0	0
-       257	       256	    535227	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	535088	280	0	61	0	0	0	0	0	0	0
-       258	       257	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       259	       258	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       260	       259	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       261	       260	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       262	       261	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       263	       262	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       264	       263	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       265	       264	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       266	       265	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       267	       266	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       268	       445	   1112090	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112025	70	0	94	0	0	0	0	0	0	0
-       269	       268	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       270	       269	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       271	         8	     95706	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       272	       271	     80764	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	1036	0	14	0	0	0	0	0	0	0
-       273	       272	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	48	0	0	0	0	0	0	0
-       274	       273	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	49	0	0	0	0	0	0	0
-       275	       274	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	85	0	0	0	0	0	0	0
-       276	       275	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	86	0	0	0	0	0	0	0
-       277	       276	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	87	0	0	0	0	0	0	0
-       278	       277	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	88	0	0	0	0	0	0	0
-       279	       278	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	89	0	0	0	0	0	0	0
-       280	       279	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	90	0	0	0	0	0	0	0
-       281	       280	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	91	0	0	0	0	0	0	0
-       282	       281	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       283	       282	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       284	       447	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       285	       284	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       286	       285	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       287	         8	     95773	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       288	       287	    479025	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	478976	55	0	60	0	0	0	0	0	0	0
-       289	       288	     83268	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	83184	115	0	23	0	0	0	0	0	0	0
-       290	       289	    535227	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	535088	280	0	61	0	0	0	0	0	0	0
-       291	       290	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       292	       291	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       293	       292	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       294	       293	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       295	       294	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       296	       295	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       297	       296	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       298	       297	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       299	       298	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       300	       299	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       301	       449	   1112090	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112025	70	0	94	0	0	0	0	0	0	0
-       302	       301	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       303	       302	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       304	         8	     95953	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       305	       304	    479025	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	478976	55	0	60	0	0	0	0	0	0	0
-       306	       305	     83268	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	83184	115	0	23	0	0	0	0	0	0	0
-       307	       306	    535227	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	535088	280	0	61	0	0	0	0	0	0	0
-       308	       307	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       309	       308	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       310	       309	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       311	       310	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       312	       311	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       313	       312	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       314	       313	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       315	       314	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       316	       315	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       317	       316	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       318	       451	   1112090	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112025	70	0	94	0	0	0	0	0	0	0
-       319	       318	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       320	       319	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       321	         8	     96285	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       322	       433	     88374	    1	      0	[Loop at line 47 in leftRectanglesMethodQPar]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	88286	122	88408	31	0	0	0	0	0	0	0
-       323	         8	     96317	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       324	       323	    479025	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	478976	55	0	60	0	0	0	0	0	0	0
-       325	       324	     83268	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	83184	115	0	23	0	0	0	0	0	0	0
-       326	       325	    535227	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	535088	280	0	61	0	0	0	0	0	0	0
-       327	       326	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	57	0	0	0	0	0	0	0
-       328	       327	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	58	0	0	0	0	0	0	0
-       329	       328	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	59	0	0	0	0	0	0	0
-       330	       329	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	96	0	0	0	0	0	0	0
-       331	       330	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	97	0	0	0	0	0	0	0
-       332	       331	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	98	0	0	0	0	0	0	0
-       333	       332	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	99	0	0	0	0	0	0	0
-       334	       333	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	100	0	0	0	0	0	0	0
-       335	       334	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       336	       335	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       337	       336	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	101	0	0	0	0	0	0	0
-       338	       337	    404735	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	404544	249	0	30	0	0	0	0	0	0	0
-       339	       338	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	11	0	0	0	0	0	0	0
-       340	         8	     96451	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       341	       340	     80764	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	1036	0	14	0	0	0	0	0	0	0
-       342	       341	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	48	0	0	0	0	0	0	0
-       343	       342	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	49	0	0	0	0	0	0	0
-       344	       343	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	85	0	0	0	0	0	0	0
-       345	       344	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	86	0	0	0	0	0	0	0
-       346	       345	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	87	0	0	0	0	0	0	0
-       347	       346	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	88	0	0	0	0	0	0	0
-       348	       347	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	89	0	0	0	0	0	0	0
-       349	       348	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	90	0	0	0	0	0	0	0
-       350	       349	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	91	0	0	0	0	0	0	0
-       351	       350	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       352	       351	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       353	       453	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       354	       353	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       355	       354	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       356	         8	     96592	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       357	       356	     80764	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	1036	0	14	0	0	0	0	0	0	0
-       358	       357	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	48	0	0	0	0	0	0	0
-       359	       358	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	49	0	0	0	0	0	0	0
-       360	       359	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	85	0	0	0	0	0	0	0
-       361	       360	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	86	0	0	0	0	0	0	0
-       362	       361	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	87	0	0	0	0	0	0	0
-       363	       362	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	88	0	0	0	0	0	0	0
-       364	       363	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	89	0	0	0	0	0	0	0
-       365	       364	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	90	0	0	0	0	0	0	0
-       366	       365	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	91	0	0	0	0	0	0	0
-       367	       366	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	92	0	0	0	0	0	0	0
-       368	       367	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	93	0	0	0	0	0	0	0
-       369	       455	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	94	0	0	0	0	0	0	0
-       370	       369	    173685	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	173568	179	0	29	0	0	0	0	0	0	0
-       371	       370	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	10	0	0	0	0	0	0	0
-       372	         8	     96647	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       373	       372	     78305	    0	      0	std::thread::thread<double (__cdecl&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	78144	179	0	33	0	0	0	0	0	0	0
-       374	       373	     82520	    0	      0	std::thread::_Start<double (__cdecl&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	82192	438	0	35	0	0	0	0	0	0	0
-       375	       374	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	102	0	0	0	0	0	0	0
-       376	         8	     96660	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       377	       376	     87213	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87088	194	0	36	0	0	0	0	0	0	0
-       378	       377	    142883	    0	      1	                               Thrd_join	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	142848	135	0	62	0	0	0	0	0	0	0
-       379	       457	    136845	    1	      1	[Loop@0x18002167e in WaitForSingleObjectEx]	C:\WINDOWS\System32\KERNELBASE.dll	136830	44	0	37	0	0	0	0	0	0	0
-       380	       379	    642724	    0	      1	                   NtWaitForSingleObject	C:\WINDOWS\SYSTEM32\ntdll.dll	642704	21	0	12	0	0	0	0	0	0	0
-       381	         8	     96735	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       382	       381	     78305	    0	      0	std::thread::thread<double (__cdecl&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	78144	179	0	33	0	0	0	0	0	0	0
-       383	       382	     82520	    0	      0	std::thread::_Start<double (__cdecl&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	82192	438	0	35	0	0	0	0	0	0	0
-       384	       383	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	102	0	0	0	0	0	0	0
-       385	         8	     96823	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       386	       385	     78305	    0	      0	std::thread::thread<double (__cdecl&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	78144	179	0	33	0	0	0	0	0	0	0
-       387	       386	     82520	    0	      0	std::thread::_Start<double (__cdecl&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	82192	438	0	35	0	0	0	0	0	0	0
-       388	       387	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	102	0	0	0	0	0	0	0
-       389	         8	     96911	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       390	       389	     78305	    0	      0	std::thread::thread<double (__cdecl&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	78144	179	0	33	0	0	0	0	0	0	0
-       391	       390	     82520	    0	      0	std::thread::_Start<double (__cdecl&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	82192	438	0	35	0	0	0	0	0	0	0
-       392	       391	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	102	0	0	0	0	0	0	0
-       393	         8	     96924	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       394	       393	     87213	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87088	194	0	36	0	0	0	0	0	0	0
-       395	       394	    142883	    0	      1	                               Thrd_join	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	142848	135	0	62	0	0	0	0	0	0	0
-       396	       459	    136845	    1	      1	[Loop@0x18002167e in WaitForSingleObjectEx]	C:\WINDOWS\System32\KERNELBASE.dll	136830	44	0	37	0	0	0	0	0	0	0
-       397	       396	    642724	    0	      1	                   NtWaitForSingleObject	C:\WINDOWS\SYSTEM32\ntdll.dll	642704	21	0	12	0	0	0	0	0	0	0
-       398	         8	     96999	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       399	       398	     78305	    0	      0	std::thread::thread<double (__cdecl&)(double,double,double),double &,double &,double &,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	78144	179	0	33	0	0	0	0	0	0	0
-       400	       399	     82520	    0	      0	std::thread::_Start<double (__cdecl&)(double,double,double),double &,double &,double &>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	82192	438	0	35	0	0	0	0	0	0	0
-       401	       400	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	102	0	0	0	0	0	0	0
-       402	         8	     97012	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92688	4616	0	13	0	0	0	0	0	0	0
-       403	       402	     87213	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87088	194	0	36	0	0	0	0	0	0	0
-       404	       403	    142883	    0	      1	                               Thrd_join	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	142848	135	0	62	0	0	0	0	0	0	0
-       405	       461	    136845	    1	      1	[Loop@0x18002167e in WaitForSingleObjectEx]	C:\WINDOWS\System32\KERNELBASE.dll	136830	44	0	37	0	0	0	0	0	0	0
-       406	       405	    642724	    0	      1	                   NtWaitForSingleObject	C:\WINDOWS\SYSTEM32\ntdll.dll	642704	21	0	12	0	0	0	0	0	0	0
-       407	        60	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       408	        60	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       409	       122	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       410	       122	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       411	       176	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       412	       176	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       413	       196	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       414	       196	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       415	       218	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       416	       218	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       417	       238	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       418	       238	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	55	0	0	0	0	0	0	0
-       419	        78	     87583	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87456	308	0	22	0	0	0	0	0	0	0
-       420	        78	     87733	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87456	308	0	22	0	0	0	0	0	0	0
-       421	        78	     87621	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87456	308	0	22	0	0	0	0	0	0	0
-       422	        78	     87665	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87456	308	0	22	0	0	0	0	0	0	0
-       423	        78	     87692	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87456	308	0	22	0	0	0	0	0	0	0
-       424	        78	     87638	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87456	308	0	22	0	0	0	0	0	0	0
-       425	       114	     89343	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89216	308	0	25	0	0	0	0	0	0	0
-       426	       114	     89493	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89216	308	0	25	0	0	0	0	0	0	0
-       427	       138	     89343	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89216	308	0	25	0	0	0	0	0	0	0
-       428	       138	     89493	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89216	308	0	25	0	0	0	0	0	0	0
-       429	       138	     89381	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89216	308	0	25	0	0	0	0	0	0	0
-       430	       138	     89425	    0	      0	                   rightRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89216	308	0	25	0	0	0	0	0	0	0
-       431	       212	     87966	    0	      0	            leftRectanglesMethodNoVector	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87856	247	0	28	0	0	0	0	0	0	0
-       432	       212	     88030	    0	      0	            leftRectanglesMethodNoVector	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87856	247	0	28	0	0	0	0	0	0	0
-       433	       321	     88286	    0	      0	                leftRectanglesMethodQPar	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	88176	247	0	32	0	0	0	0	0	0	0
-       434	       321	     88374	    0	      0	                leftRectanglesMethodQPar	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	88176	247	0	32	0	0	0	0	0	0	0
-       435	        52	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       436	        52	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       437	       134	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       438	       134	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       439	       168	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       440	       168	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       441	       230	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       442	       230	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       443	       250	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       444	       250	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       445	       267	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       446	       267	   1112090	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       447	       283	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       448	       283	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       449	       300	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       450	       300	   1112090	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       451	       317	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       452	       317	   1112090	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       453	       352	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       454	       352	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       455	       368	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       456	       368	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	95	0	0	0	0	0	0	0
-       457	       378	    136830	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	136704	301	0	38	0	0	0	0	0	0	0
-       458	       378	    136845	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	136704	301	0	38	0	0	0	0	0	0	0
-       459	       395	    136830	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	136704	301	0	38	0	0	0	0	0	0	0
-       460	       395	    136845	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	136704	301	0	38	0	0	0	0	0	0	0
-       461	       404	    136830	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	136704	301	0	38	0	0	0	0	0	0	0
-       462	       404	    136845	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	136704	301	0	38	0	0	0	0	0	0	0
-       463	        -1	         0	    0	      0	                      [Outside any loop]	n/a	0	0	0	103	0	0	0	0	0	0	0
+         1	        -1	    478176	    0	      1	                        func@0x180074be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	478176	188	0	46	0	0	0	0	0	0	0
+         2	        -1	    337488	    0	      1	                      RtlUserThreadStart	C:\WINDOWS\SYSTEM32\ntdll.dll	337456	72	0	29	0	0	0	0	0	0	0
+         3	         2	     94259	    0	      1	                     BaseThreadInitThunk	C:\WINDOWS\System32\KERNEL32.DLL	94240	67	0	133	0	0	0	0	0	0	0
+         4	         3	    926505	    0	      1	          tpss_ThreadStartRoutineWrapper	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	925040	3405	0	134	0	0	0	0	0	0	0
+         5	         4	    478238	    0	      1	                        func@0x180074be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	478176	188	0	46	0	0	0	0	0	0	0
+         6	         5	    368426	    0	      1	                        func@0x180059f20	C:\WINDOWS\SYSTEM32\ucrtbased.dll	368416	16	0	47	0	0	0	0	0	0	0
+         7	         6	    367522	    0	      1	                        func@0x180059b50	C:\WINDOWS\SYSTEM32\ucrtbased.dll	367440	197	0	48	0	0	0	0	0	0	0
+         8	         7	    368162	    0	      1	                        func@0x180059e10	C:\WINDOWS\SYSTEM32\ucrtbased.dll	368144	24	0	49	0	0	0	0	0	0	0
+         9	         8	    363453	    0	      1	                        func@0x180058bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	363440	73	0	50	0	0	0	0	0	0	0
+        10	         9	    360137	    0	      1	                        func@0x180057ea0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	360096	47	0	51	0	0	0	0	0	0	0
+        11	        10	    362371	    0	      1	                        func@0x180058710	C:\WINDOWS\SYSTEM32\ucrtbased.dll	362256	401	0	52	0	0	0	0	0	0	0
+        12	        11	    363073	    0	      1	                        func@0x180058a20	C:\WINDOWS\SYSTEM32\ucrtbased.dll	363040	72	0	53	0	0	0	0	0	0	0
+        13	       308	    362207	    1	      1	  [Loop@0x1800586ba in func@0x1800586a0]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	362170	51	0	54	0	0	0	0	0	0	0
+        14	        13	    362760	    0	      1	                        func@0x1800588b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	362672	347	0	56	0	0	0	0	0	0	0
+        15	        14	    363147	    0	      1	                        func@0x180058a70	C:\WINDOWS\SYSTEM32\ucrtbased.dll	363120	138	0	57	0	0	0	0	0	0	0
+        16	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	32	0	0	0	0	0	0	0
+        17	         4	    478331	    0	      1	                        func@0x180074be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	478176	188	0	46	0	0	0	0	0	0	0
+        18	        17	     87078	    0	      0	std::thread::_Invoke<std::tuple<void (__cdecl*)(double,double,double,double &),int,double,double,std::reference_wrapper<double> >,0,1,2,3,4>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	86800	354	0	2	0	0	0	0	0	0	0
+        19	        18	     93046	    0	      0	std::invoke<void (__cdecl*)(double,double,double,double &),int,double,double,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	92944	113	0	3	0	0	0	0	0	0	0
+        20	       296	     99580	    1	      0	[Loop at line 28 in leftRectanglesMethodThreaded]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99418	168	99586	4	0	0	0	0	0	0	0
+        21	        20	     19167	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	28	0	0	0	0	0	0	0
+        22	        21	     24579	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	35	0	0	0	0	0	0	0
+        23	         4	    478338	    0	      1	                        func@0x180074be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	478176	188	0	46	0	0	0	0	0	0	0
+        24	        23	    480432	    0	      1	                             endthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	480416	22	0	58	0	0	0	0	0	0	0
+        25	        24	    478938	    0	      1	                        func@0x180074e30	C:\WINDOWS\SYSTEM32\ucrtbased.dll	478768	188	0	59	0	0	0	0	0	0	0
+        26	        25	   1847927	    0	      1	                         func@0xc51c2ed0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	1846992	1109	0	135	0	0	0	0	0	0	0
+        27	        26	    492217	    0	      1	                FreeLibraryAndExitThread	C:\WINDOWS\System32\KERNELBASE.dll	492144	161	0	83	0	0	0	0	0	0	0
+        28	        27	   1984997	    0	      1	                         func@0xc51e45c0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	1983936	1086	0	136	0	0	0	0	0	0	0
+        29	        28	    345645	    0	      1	                       RtlExitUserThread	C:\WINDOWS\SYSTEM32\ntdll.dll	345584	86	0	30	0	0	0	0	0	0	0
+        30	        29	     95383	    0	      1	                       LdrShutdownThread	C:\WINDOWS\SYSTEM32\ntdll.dll	95312	628	0	31	0	0	0	0	0	0	0
+        31	        30	    384468	    0	      1	                        func@0x18005dd86	C:\WINDOWS\SYSTEM32\ntdll.dll	384390	173	0	34	0	0	0	0	0	0	0
+        32	        31	     47525	    0	      1	                        func@0x18000b9a0	C:\WINDOWS\SYSTEM32\VCRUNTIME140D.dll	47520	54	0	1	0	0	0	0	0	0	0
+        33	        17	     87974	    0	      0	std::thread::_Invoke<std::tuple<void (__cdecl*)(double,double,double,double &),double,double,double,std::reference_wrapper<double> >,0,1,2,3,4>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87696	354	0	6	0	0	0	0	0	0	0
+        34	        33	     93350	    0	      0	std::invoke<void (__cdecl*)(double,double,double,double &),double,double,double,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	93248	113	0	7	0	0	0	0	0	0	0
+        35	       298	     99456	    1	      0	[Loop at line 28 in leftRectanglesMethodThreaded]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99418	168	99586	4	0	0	0	0	0	0	0
+        36	        35	     18692	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	36	0	0	0	0	0	0	0
+        37	        36	     23762	    0	      1	                        func@0x1800059d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	22992	868	0	37	0	0	0	0	0	0	0
+        38	        17	     87526	    0	      0	std::thread::_Invoke<std::tuple<void (__cdecl*)(double,double,double,double &),double,int,double,std::reference_wrapper<double> >,0,1,2,3,4>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	87248	354	0	8	0	0	0	0	0	0	0
+        39	        38	     93193	    0	      0	std::invoke<void (__cdecl*)(double,double,double,double &),double,int,double,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	93088	116	0	9	0	0	0	0	0	0	0
+        40	       300	     99500	    1	      0	[Loop at line 28 in leftRectanglesMethodThreaded]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99418	168	99586	4	0	0	0	0	0	0	0
+        41	        15	    175088	    0	      1	                          LoadLibraryExW	C:\WINDOWS\System32\KERNELBASE.dll	175088	283	0	98	0	0	0	0	0	0	0
+        42	       298	     99580	    1	      0	[Loop at line 28 in leftRectanglesMethodThreaded]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99418	168	99586	4	0	0	0	0	0	0	0
+        43	        42	     19167	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	28	0	0	0	0	0	0	0
+        44	        43	     24564	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	35	0	0	0	0	0	0	0
+        45	        35	     18542	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	36	0	0	0	0	0	0	0
+        46	        45	     16969	    0	      1	                        func@0x1800041d0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	16848	201	0	38	0	0	0	0	0	0	0
+        47	        25	   1847184	    0	      1	                         func@0xc51c2ed0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	1846992	1109	0	135	0	0	0	0	0	0	0
+        48	        47	   2766481	    0	      1	                         func@0xc52a3440	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	2765888	946	0	137	0	0	0	0	0	0	0
+        49	        48	   2774793	    0	      1	                         func@0xc52a5670	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	2774640	1750	0	138	0	0	0	0	0	0	0
+        50	       286	   2778312	    1	      1	    [Loop@0xc52a63db in func@0xc52a63c0]	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	2778075	243	0	139	0	0	0	0	0	0	0
+        51	        50	    423523	    0	      1	                          SwitchToThread	C:\WINDOWS\System32\KERNELBASE.dll	423488	72	0	109	0	0	0	0	0	0	0
+        52	        51	    644836	    0	      1	                        NtYieldExecution	C:\WINDOWS\SYSTEM32\ntdll.dll	644816	21	0	39	0	0	0	0	0	0	0
+        53	        -1	     70867	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	70867	5	0	10	0	0	0	0	0	0	0
+        54	         3	    107293	    0	      0	                          mainCRTStartup	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	107280	19	0	10	0	0	0	0	0	0	0
+        55	        54	    106477	    0	      0	                       _scrt_common_main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	106464	19	0	11	0	0	0	0	0	0	0
+        56	        55	    106632	    0	      0	                   _scrt_common_main_seh	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	106496	414	0	12	0	0	0	0	0	0	0
+        57	       310	    475800	    1	      1	          [Loop@0x18007425a in initterm]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	475738	65	0	60	0	0	0	0	0	0	0
+        58	        57	     73527	    0	      0	`dynamic initializer for '__annotate_routines_s''	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	73488	57	0	13	0	0	0	0	0	0	0
+        59	        58	    102483	    0	      0	                 _annotate_routines_init	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	101264	1237	0	14	0	0	0	0	0	0	0
+        60	        59	     20074	    0	      1	                  _itt_model_disable_pop	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	20060	26	0	43	0	0	0	0	0	0	0
+        61	        60	   2096876	    0	      1	                         func@0xc51ffd90	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	2096528	800	0	141	0	0	0	0	0	0	0
+        62	        61	   4965281	    0	      1	                         func@0xc54bc383	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	4965251	123	0	142	0	0	0	0	0	0	0
+        63	       288	     53917	    1	      1	    [Loop@0xc500d27f in func@0xc500d1e0]	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	53887	131	0	143	0	0	0	0	0	0	0
+        64	        63	    658996	    0	      1	                        func@0x1800a0e26	C:\WINDOWS\System32\KERNELBASE.dll	658982	34	0	110	0	0	0	0	0	0	0
+        65	        64	    642724	    0	      1	                   NtWaitForSingleObject	C:\WINDOWS\SYSTEM32\ntdll.dll	642704	21	0	40	0	0	0	0	0	0	0
+        66	        55	    106797	    0	      0	                   _scrt_common_main_seh	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	106496	414	0	12	0	0	0	0	0	0	0
+        67	        66	    107144	    0	      0	                             invoke_main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	107088	62	0	15	0	0	0	0	0	0	0
+        68	        67	    103115	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+        69	        68	    399250	    0	      1	                               setlocale	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399200	56	0	62	0	0	0	0	0	0	0
+        70	        69	    397689	    0	      1	                        func@0x180061130	C:\WINDOWS\SYSTEM32\ucrtbased.dll	397616	79	0	63	0	0	0	0	0	0	0
+        71	        70	    397573	    0	      1	                        func@0x1800610d0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	397520	79	0	64	0	0	0	0	0	0	0
+        72	        71	    397756	    0	      1	                        func@0x180061190	C:\WINDOWS\SYSTEM32\ucrtbased.dll	397712	1046	0	65	0	0	0	0	0	0	0
+        73	        72	    399164	    0	      1	                        func@0x1800615b0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	398768	422	0	66	0	0	0	0	0	0	0
+        74	        73	    407785	    0	      1	                              wsetlocale	C:\WINDOWS\SYSTEM32\ucrtbased.dll	407456	343	0	67	0	0	0	0	0	0	0
+        75	        74	    400600	    0	      1	                        func@0x180061ca0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400544	63	0	68	0	0	0	0	0	0	0
+        76	        75	    400124	    0	      1	                        func@0x180061ad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400080	61	0	69	0	0	0	0	0	0	0
+        77	        76	    401989	    0	      1	                        func@0x180062150	C:\WINDOWS\SYSTEM32\ucrtbased.dll	401744	254	0	70	0	0	0	0	0	0	0
+        78	        77	    400425	    0	      1	                        func@0x180061be0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	400352	79	0	71	0	0	0	0	0	0	0
+        79	        78	    399964	    0	      1	                        func@0x180061a30	C:\WINDOWS\SYSTEM32\ucrtbased.dll	399920	61	0	72	0	0	0	0	0	0	0
+        80	        79	    401468	    0	      1	                        func@0x180061fe0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	401376	357	0	73	0	0	0	0	0	0	0
+        81	        80	    409954	    0	      1	                        func@0x180063e00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	409088	1149	0	74	0	0	0	0	0	0	0
+        82	        81	    404875	    0	      1	                        func@0x180062b50	C:\WINDOWS\SYSTEM32\ucrtbased.dll	404304	1622	0	75	0	0	0	0	0	0	0
+        83	        82	    381049	    0	      1	                        func@0x18005cfb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	380848	996	0	76	0	0	0	0	0	0	0
+        84	        83	    378082	    0	      1	                        func@0x18005c460	C:\WINDOWS\SYSTEM32\ucrtbased.dll	377952	163	0	79	0	0	0	0	0	0	0
+        85	        84	    363984	    0	      1	                        func@0x180058d80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	363904	116	0	80	0	0	0	0	0	0	0
+        86	        85	    525410	    0	      1	                     EnumSystemLocalesEx	C:\WINDOWS\System32\KERNELBASE.dll	525376	40	0	111	0	0	0	0	0	0	0
+        87	        86	    105898	    0	      1	                        func@0x180019d61	C:\WINDOWS\System32\KERNELBASE.dll	105825	415	0	112	0	0	0	0	0	0	0
+        88	        87	    379899	    0	      1	                        func@0x18005cb60	C:\WINDOWS\SYSTEM32\ucrtbased.dll	379744	334	0	82	0	0	0	0	0	0	0
+        89	        88	    818793	    0	      1	                                 wcsicmp	C:\WINDOWS\SYSTEM32\ucrtbased.dll	818416	403	0	87	0	0	0	0	0	0	0
+        90	       312	    818218	    1	      1	  [Loop@0x1800c7c22 in func@0x1800c7c00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	818210	108	0	88	0	0	0	0	0	0	0
+        91	        87	    379855	    0	      1	                        func@0x18005cb60	C:\WINDOWS\SYSTEM32\ucrtbased.dll	379744	334	0	82	0	0	0	0	0	0	0
+        92	        91	    364704	    0	      1	                        func@0x180059050	C:\WINDOWS\SYSTEM32\ucrtbased.dll	364624	122	0	90	0	0	0	0	0	0	0
+        93	        92	    126326	    0	      1	                        func@0x18001ec97	C:\WINDOWS\System32\KERNELBASE.dll	126103	298	0	117	0	0	0	0	0	0	0
+        94	        93	    212174	    0	      1	                        func@0x180033bc4	C:\WINDOWS\System32\KERNELBASE.dll	211908	315	0	119	0	0	0	0	0	0	0
+        95	        94	    102052	    0	      1	                        func@0x180018e86	C:\WINDOWS\System32\KERNELBASE.dll	102022	57	0	125	0	0	0	0	0	0	0
+        96	        95	    112102	    0	      1	                        func@0x18001b536	C:\WINDOWS\System32\KERNELBASE.dll	111926	315	0	126	0	0	0	0	0	0	0
+        97	        96	    212138	    0	      1	                        func@0x180033bc4	C:\WINDOWS\System32\KERNELBASE.dll	211908	315	0	119	0	0	0	0	0	0	0
+        98	        97	    211335	    0	      1	                        func@0x180033848	C:\WINDOWS\System32\KERNELBASE.dll	211016	458	0	127	0	0	0	0	0	0	0
+        99	        98	    643172	    0	      1	                               NtOpenKey	C:\WINDOWS\SYSTEM32\ntdll.dll	643152	21	0	41	0	0	0	0	0	0	0
+       100	        67	    103385	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       101	       100	     79200	    0	      0	std::thread::thread<void (__cdecl&)(double,double,double,double &),int,double,double &,std::reference_wrapper<double>,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	79008	210	0	17	0	0	0	0	0	0	0
+       102	       101	     88503	    0	      0	std::thread::_Start<void (__cdecl&)(double,double,double,double &),int,double,double &,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	88144	469	0	18	0	0	0	0	0	0	0
+       103	       102	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	92	0	0	0	0	0	0	0
+       104	        67	    103484	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       105	       104	     80320	    0	      0	std::thread::thread<void (__cdecl&)(double,double,double,double &),double,double,double &,std::reference_wrapper<double>,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	210	0	19	0	0	0	0	0	0	0
+       106	       105	     89687	    0	      0	std::thread::_Start<void (__cdecl&)(double,double,double,double &),double,double,double &,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89328	469	0	20	0	0	0	0	0	0	0
+       107	       106	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	92	0	0	0	0	0	0	0
+       108	        67	    103583	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       109	       108	     80320	    0	      0	std::thread::thread<void (__cdecl&)(double,double,double,double &),double,double,double &,std::reference_wrapper<double>,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	80128	210	0	19	0	0	0	0	0	0	0
+       110	       109	     89687	    0	      0	std::thread::_Start<void (__cdecl&)(double,double,double,double &),double,double,double &,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	89328	469	0	20	0	0	0	0	0	0	0
+       111	       110	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	92	0	0	0	0	0	0	0
+       112	        67	    103676	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       113	       112	     79760	    0	      0	std::thread::thread<void (__cdecl&)(double,double,double,double &),double,int,double &,std::reference_wrapper<double>,0>	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	79568	210	0	21	0	0	0	0	0	0	0
+       114	       113	     89095	    0	      0	std::thread::_Start<void (__cdecl&)(double,double,double,double &),double,int,double &,std::reference_wrapper<double> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	88736	469	0	22	0	0	0	0	0	0	0
+       115	       114	    480254	    0	      1	                           beginthreadex	C:\WINDOWS\SYSTEM32\ucrtbased.dll	479920	452	0	92	0	0	0	0	0	0	0
+       116	        67	    103689	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       117	       116	     98637	    0	      0	                       std::thread::join	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	98512	194	0	23	0	0	0	0	0	0	0
+       118	       117	    142883	    0	      1	                               Thrd_join	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	142848	135	0	77	0	0	0	0	0	0	0
+       119	       329	    137677	    1	      1	[Loop@0x1800219be in WaitForSingleObjectEx]	C:\WINDOWS\System32\KERNELBASE.dll	137662	44	0	128	0	0	0	0	0	0	0
+       120	       119	    642724	    0	      1	                   NtWaitForSingleObject	C:\WINDOWS\SYSTEM32\ntdll.dll	642704	21	0	40	0	0	0	0	0	0	0
+       121	        67	    103784	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       122	       121	     85772	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	85136	1036	0	24	0	0	0	0	0	0	0
+       123	       122	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	78	0	0	0	0	0	0	0
+       124	       123	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	81	0	0	0	0	0	0	0
+       125	       124	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	93	0	0	0	0	0	0	0
+       126	       125	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	94	0	0	0	0	0	0	0
+       127	       126	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	95	0	0	0	0	0	0	0
+       128	       127	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	96	0	0	0	0	0	0	0
+       129	       128	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	97	0	0	0	0	0	0	0
+       130	       129	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	99	0	0	0	0	0	0	0
+       131	       130	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	100	0	0	0	0	0	0	0
+       132	       131	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       133	       132	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       134	       133	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	115	0	0	0	0	0	0	0
+       135	       134	    406063	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	405872	249	0	130	0	0	0	0	0	0	0
+       136	       135	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       137	       132	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       138	       137	   1108613	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       139	       138	    108726	    0	      1	                      GetConsoleOutputCP	C:\WINDOWS\System32\KERNELBASE.dll	108512	257	0	131	0	0	0	0	0	0	0
+       140	       139	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       141	       314	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       142	       141	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       143	       142	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       144	        67	    103801	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       145	       144	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	84	0	0	0	0	0	0	0
+       146	       145	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	85	0	0	0	0	0	0	0
+       147	       146	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	86	0	0	0	0	0	0	0
+       148	       147	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	91	0	0	0	0	0	0	0
+       149	       290	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	101	0	0	0	0	0	0	0
+       150	       149	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	103	0	0	0	0	0	0	0
+       151	       150	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	104	0	0	0	0	0	0	0
+       152	       151	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	105	0	0	0	0	0	0	0
+       153	       152	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	106	0	0	0	0	0	0	0
+       154	       153	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	120	0	0	0	0	0	0	0
+       155	       154	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	121	0	0	0	0	0	0	0
+       156	       155	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	122	0	0	0	0	0	0	0
+       157	       156	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	123	0	0	0	0	0	0	0
+       158	       157	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	124	0	0	0	0	0	0	0
+       159	       158	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       160	       159	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       161	       160	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	115	0	0	0	0	0	0	0
+       162	       161	    406063	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	405872	249	0	130	0	0	0	0	0	0	0
+       163	       162	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       164	       159	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       165	       164	   1108613	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       166	       165	    108726	    0	      1	                      GetConsoleOutputCP	C:\WINDOWS\System32\KERNELBASE.dll	108512	257	0	131	0	0	0	0	0	0	0
+       167	       166	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       168	       316	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       169	       168	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       170	       169	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       171	        67	    103817	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       172	       171	    479025	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	478976	55	0	107	0	0	0	0	0	0	0
+       173	       172	     90500	    0	      0	std::endl<char,struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	90416	115	0	25	0	0	0	0	0	0	0
+       174	       173	    535227	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	535088	280	0	108	0	0	0	0	0	0	0
+       175	       174	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	104	0	0	0	0	0	0	0
+       176	       175	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	105	0	0	0	0	0	0	0
+       177	       176	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	106	0	0	0	0	0	0	0
+       178	       177	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	120	0	0	0	0	0	0	0
+       179	       178	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	121	0	0	0	0	0	0	0
+       180	       179	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	122	0	0	0	0	0	0	0
+       181	       180	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	123	0	0	0	0	0	0	0
+       182	       181	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	124	0	0	0	0	0	0	0
+       183	       182	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       184	       183	   1116248	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       185	       184	   1113043	    0	      1	                        func@0x18010fad0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112784	275	0	115	0	0	0	0	0	0	0
+       186	       185	    406063	    0	      1	                          GetConsoleMode	C:\WINDOWS\System32\KERNELBASE.dll	405872	249	0	130	0	0	0	0	0	0	0
+       187	       186	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       188	       183	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       189	       188	   1108613	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       190	       189	    108726	    0	      1	                      GetConsoleOutputCP	C:\WINDOWS\System32\KERNELBASE.dll	108512	257	0	131	0	0	0	0	0	0	0
+       191	       190	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       192	       318	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       193	       192	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       194	       193	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       195	       318	   1112090	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1112025	70	0	118	0	0	0	0	0	0	0
+       196	       195	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       197	       196	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       198	        67	    103909	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       199	       198	     85772	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	85136	1036	0	24	0	0	0	0	0	0	0
+       200	       199	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	78	0	0	0	0	0	0	0
+       201	       200	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	81	0	0	0	0	0	0	0
+       202	       201	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	93	0	0	0	0	0	0	0
+       203	       202	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	94	0	0	0	0	0	0	0
+       204	       203	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	95	0	0	0	0	0	0	0
+       205	       204	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	96	0	0	0	0	0	0	0
+       206	       205	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	97	0	0	0	0	0	0	0
+       207	       206	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	99	0	0	0	0	0	0	0
+       208	       207	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	100	0	0	0	0	0	0	0
+       209	       208	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       210	       209	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       211	       210	   1108613	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       212	       211	    108726	    0	      1	                      GetConsoleOutputCP	C:\WINDOWS\System32\KERNELBASE.dll	108512	257	0	131	0	0	0	0	0	0	0
+       213	       212	    642820	    0	      1	                   NtDeviceIoControlFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642800	21	0	42	0	0	0	0	0	0	0
+       214	       321	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       215	       214	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       216	       215	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       217	        67	    103995	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       218	       217	     85772	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	85136	1036	0	24	0	0	0	0	0	0	0
+       219	       218	    552439	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputn	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	552368	77	0	78	0	0	0	0	0	0	0
+       220	       219	     82018	    0	      1	                        func@0x180013f60	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	81760	296	0	81	0	0	0	0	0	0	0
+       221	       220	    519935	    0	      1	                                  fwrite	C:\WINDOWS\SYSTEM32\ucrtbased.dll	519664	277	0	93	0	0	0	0	0	0	0
+       222	       221	    517594	    0	      1	                        func@0x18007e590	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517520	80	0	94	0	0	0	0	0	0	0
+       223	       222	    517477	    0	      1	                        func@0x18007e530	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517424	79	0	95	0	0	0	0	0	0	0
+       224	       223	    517722	    0	      1	                        func@0x18007e5f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	517616	117	0	96	0	0	0	0	0	0	0
+       225	       224	    502942	    0	      1	                        func@0x18007ac80	C:\WINDOWS\SYSTEM32\ucrtbased.dll	502912	36	0	97	0	0	0	0	0	0	0
+       226	       225	    759737	    0	      1	                        func@0x1800b9770	C:\WINDOWS\SYSTEM32\ucrtbased.dll	759664	146	0	99	0	0	0	0	0	0	0
+       227	       226	    493251	    0	      1	                        func@0x180078610	C:\WINDOWS\SYSTEM32\ucrtbased.dll	493072	260	0	100	0	0	0	0	0	0	0
+       228	       227	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       229	       228	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       230	       323	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       231	       230	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       232	       231	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       233	        67	    104043	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       234	       303	     99045	    1	      0	[Loop at line 12 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99007	156	99163	26	0	0	0	0	0	0	0
+       235	       234	     18682	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	36	0	0	0	0	0	0	0
+       236	       303	     99023	    1	      0	[Loop at line 12 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99007	156	99163	26	0	0	0	0	0	0	0
+       237	       233	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	32	0	0	0	0	0	0	0
+       238	       237	 356074920	    0	      0	              [Outside any known module]	n/a	0	0	0	33	0	0	0	0	0	0	0
+       239	       234	     18560	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	36	0	0	0	0	0	0	0
+       240	       234	     18521	    0	      1	                  _itt_model_task_beginA	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	18520	183	0	36	0	0	0	0	0	0	0
+       241	       303	     99116	    1	      0	[Loop at line 12 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99007	156	99163	26	0	0	0	0	0	0	0
+       242	       303	     99157	    1	      0	[Loop at line 12 in leftRectanglesMethod]	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99007	156	99163	26	0	0	0	0	0	0	0
+       243	       242	     19167	    0	      1	                   _itt_model_task_end_2	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	19088	86	0	28	0	0	0	0	0	0	0
+       244	       243	     24575	    0	      1	                        func@0x180005e38	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	24120	596	0	35	0	0	0	0	0	0	0
+       245	       244	     17063	    0	      1	                        func@0x180004299	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\libittnotify.dll	17049	778	0	44	0	0	0	0	0	0	0
+       246	        67	    104090	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       247	       246	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	84	0	0	0	0	0	0	0
+       248	       247	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	85	0	0	0	0	0	0	0
+       249	       248	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	86	0	0	0	0	0	0	0
+       250	       249	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	91	0	0	0	0	0	0	0
+       251	       292	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	101	0	0	0	0	0	0	0
+       252	       251	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	103	0	0	0	0	0	0	0
+       253	       252	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	104	0	0	0	0	0	0	0
+       254	       253	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	105	0	0	0	0	0	0	0
+       255	       254	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	106	0	0	0	0	0	0	0
+       256	       255	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	120	0	0	0	0	0	0	0
+       257	       256	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	121	0	0	0	0	0	0	0
+       258	       257	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	122	0	0	0	0	0	0	0
+       259	       258	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	123	0	0	0	0	0	0	0
+       260	       259	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	124	0	0	0	0	0	0	0
+       261	       260	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       262	       261	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       263	       325	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       264	       263	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       265	       264	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       266	        67	    104247	    0	      0	                                    main	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	103040	1367	0	16	0	0	0	0	0	0	0
+       267	       266	    478239	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	477792	581	0	84	0	0	0	0	0	0	0
+       268	       267	    536417	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	536272	161	0	85	0	0	0	0	0	0	0
+       269	       268	    130210	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	129584	675	0	86	0	0	0	0	0	0	0
+       270	       269	    107747	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	105808	2109	0	91	0	0	0	0	0	0	0
+       271	       294	    122506	    1	      1	[Loop@0x18001de3c in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122428	81	0	101	0	0	0	0	0	0	0
+       272	       271	    104005	    0	      1	                        func@0x180019610	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	103952	107	0	103	0	0	0	0	0	0	0
+       273	       272	    134444	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	134304	154	0	104	0	0	0	0	0	0	0
+       274	       273	     73133	    0	      1	                        func@0x180011c80	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	72832	721	0	105	0	0	0	0	0	0	0
+       275	       274	     23550	    0	      1	                        func@0x180005bdf	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	23519	65	0	106	0	0	0	0	0	0	0
+       276	       275	    502523	    0	      1	                                   fputc	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501888	668	0	120	0	0	0	0	0	0	0
+       277	       276	    501700	    0	      1	                            fputc_nolock	C:\WINDOWS\SYSTEM32\ucrtbased.dll	501600	176	0	121	0	0	0	0	0	0	0
+       278	       277	    758247	    0	      1	                        func@0x1800b91c0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	758208	45	0	122	0	0	0	0	0	0	0
+       279	       278	    756036	    0	      1	                        func@0x1800b8750	C:\WINDOWS\SYSTEM32\ucrtbased.dll	755536	544	0	123	0	0	0	0	0	0	0
+       280	       279	    757243	    0	      1	                        func@0x1800b8bb0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	756656	624	0	124	0	0	0	0	0	0	0
+       281	       280	   1115597	    0	      1	                                   write	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1114960	660	0	113	0	0	0	0	0	0	0
+       282	       281	   1116328	    0	      1	                        func@0x1801105f0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1115632	1484	0	114	0	0	0	0	0	0	0
+       283	       327	   1111792	    1	      1	  [Loop@0x18010eaeb in func@0x18010ea00]	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1111746	51	0	118	0	0	0	0	0	0	0
+       284	       283	    174533	    0	      1	                               WriteFile	C:\WINDOWS\System32\KERNELBASE.dll	174416	179	0	132	0	0	0	0	0	0	0
+       285	       284	    642852	    0	      1	                             NtWriteFile	C:\WINDOWS\SYSTEM32\ntdll.dll	642832	21	0	45	0	0	0	0	0	0	0
+       286	        49	   2778075	    0	      1	                         func@0xc52a63c0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	2778048	303	0	140	0	0	0	0	0	0	0
+       287	        49	   2778312	    0	      1	                         func@0xc52a63c0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	2778048	303	0	140	0	0	0	0	0	0	0
+       288	        62	     53887	    0	      1	                         func@0xc500d1e0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	53728	720	0	144	0	0	0	0	0	0	0
+       289	        62	     53917	    0	      1	                         func@0xc500d1e0	C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll	53728	720	0	144	0	0	0	0	0	0	0
+       290	       148	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	102	0	0	0	0	0	0	0
+       291	       148	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	102	0	0	0	0	0	0	0
+       292	       250	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	102	0	0	0	0	0	0	0
+       293	       250	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	102	0	0	0	0	0	0	0
+       294	       270	    122428	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	102	0	0	0	0	0	0	0
+       295	       270	    122506	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\WINDOWS\SYSTEM32\MSVCP140D.dll	122400	138	0	102	0	0	0	0	0	0	0
+       296	        19	     99418	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       297	        19	     99580	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       298	        34	     99418	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       299	        34	     99456	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       300	        39	     99418	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       301	        39	     99500	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       302	        34	     99580	    0	      0	            leftRectanglesMethodThreaded	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	99280	326	0	5	0	0	0	0	0	0	0
+       303	       233	     99007	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	98880	308	0	27	0	0	0	0	0	0	0
+       304	       233	     99045	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	98880	308	0	27	0	0	0	0	0	0	0
+       305	       233	     99023	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	98880	308	0	27	0	0	0	0	0	0	0
+       306	       233	     99116	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	98880	308	0	27	0	0	0	0	0	0	0
+       307	       233	     99157	    0	      0	                    leftRectanglesMethod	C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe	98880	308	0	27	0	0	0	0	0	0	0
+       308	        12	    362170	    0	      1	                        func@0x1800586a0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	362144	93	0	55	0	0	0	0	0	0	0
+       309	        12	    362207	    0	      1	                        func@0x1800586a0	C:\WINDOWS\SYSTEM32\ucrtbased.dll	362144	93	0	55	0	0	0	0	0	0	0
+       310	        56	    475738	    0	      1	                                initterm	C:\WINDOWS\SYSTEM32\ucrtbased.dll	475712	96	0	61	0	0	0	0	0	0	0
+       311	        56	    475800	    0	      1	                                initterm	C:\WINDOWS\SYSTEM32\ucrtbased.dll	475712	96	0	61	0	0	0	0	0	0	0
+       312	        89	    818210	    0	      1	                        func@0x1800c7c00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	818176	151	0	89	0	0	0	0	0	0	0
+       313	        89	    818218	    0	      1	                        func@0x1800c7c00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	818176	151	0	89	0	0	0	0	0	0	0
+       314	       137	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       315	       137	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       316	       164	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       317	       164	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       318	       188	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       319	       188	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       320	       188	   1112090	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       321	       210	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       322	       210	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       323	       229	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       324	       229	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       325	       262	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       326	       262	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       327	       282	   1108715	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       328	       282	   1111792	    0	      1	                        func@0x18010ea00	C:\WINDOWS\SYSTEM32\ucrtbased.dll	1108480	3936	0	116	0	0	0	0	0	0	0
+       329	       118	    137662	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	137536	301	0	129	0	0	0	0	0	0	0
+       330	       118	    137677	    0	      1	                   WaitForSingleObjectEx	C:\WINDOWS\System32\KERNELBASE.dll	137536	301	0	129	0	0	0	0	0	0	0
+       331	        -1	         0	    0	      0	                      [Outside any loop]	n/a	0	0	0	148	0	0	0	0	0	0	0

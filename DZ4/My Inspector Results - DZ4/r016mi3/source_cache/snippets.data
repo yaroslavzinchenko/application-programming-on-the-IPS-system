@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\DZ4.cpp" md5="ea9dd0e44b4dd0babd25c731d4142425">
+    <snippet line="54">
+      <line line="51">int main()</line>
+      <line line="52">{</line>
+      <line line="53">    setlocale(LC_ALL, "Russian");</line>
+      <line line="54"/>
+      <line line="55">    // Границы интегрирования.</line>
+    </snippet>
+  </file>
+</snippets>

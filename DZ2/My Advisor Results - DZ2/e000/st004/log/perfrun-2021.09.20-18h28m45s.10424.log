@@ -1,0 +1,171 @@
+271 [14840] INFO perfrun.launcher <> - Launcher main begin
+294 [14840] INFO perfrun.launcher <> - MessageCatalogInit finished
+294 [14840] INFO perfrun.launcher <> - Launcher instance created
+294 [14840] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\advixe-runss.exe --ui-output-format xml --ui-output-fd 3368 --option-file C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\config\runss.options 
+358 [14840] INFO perfrun.launcher <> - New signal handler callback was added
+402 [14840] INFO perfrun.launcher <> - plugin remoteplug has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin system has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin itt has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin gpu has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin mrte has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+403 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+404 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+404 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+404 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+404 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+416 [14840] INFO perfrun.launcher <> - plugin tpss has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+417 [14840] INFO perfrun.launcher <> - plugin  has been added successfully
+456 [14840] INFO perfrun.launcher <> - the option was added --interval: Specify an interval of data collection (for example, sampling) in milliseconds.
+457 [14840] INFO perfrun.launcher <> - the option was added --follow-child: Profile process with or without children.
+457 [14840] INFO perfrun.launcher <> - the option was added --gelding: BADMSG: perfrun1.launcher.plugin_manager::gelding
+457 [14840] INFO perfrun.launcher <> - the option was added --time-source: Specify time source for measurement. Possible values: sys - wall clock time; tsc - time stamp counter; ext - time from an external source; auto - auto select accurate time source.
+458 [14840] INFO perfrun.launcher <> - the option was added --stack: Enable or disable collection of stacks.
+458 [14840] INFO perfrun.launcher <> - the option was added --stack-stitching: Enable or disable the stack stitching algorithm for Intel TBB-based applications.
+458 [14840] INFO perfrun.launcher <> - the option was added --type: Specify type of data to be collected. For example, --type cpu:counters,waiting:nostack,io.
+458 [14840] INFO perfrun.launcher <> - the option was added --mrte-mode: Specify Java/.NET/other managed runtime collection mode. Possible values: native - collect information only for native code; managed - collect information only for managed code; mixed - collect information for both managed and native code; auto - choose the mode based on binary type.
+459 [14840] INFO perfrun.launcher <> - the option was added --mrte-mode-list: List supported Java/.NET/other managed runtime collection modes.
+459 [14840] INFO perfrun.launcher <> - the option was added --mrte-type: Specify which managed runtimes to collect. Possible values: java - collect information for Java; dotnet - collect information for .NET; python - collect information for CPython. You can specify several values separated by comma.
+459 [14840] INFO perfrun.launcher <> - the option was added --mrte-type-list: List supported Java/.NET/other managed runtime types.
+460 [14840] INFO perfrun.launcher <> - the option was added --trace-strategy: Specify how to profile a process tree. <string> can be "<process>:trace:notrace" - profile the process but do not profile its children. Shorthand parameters: t - trace, nt - notrace. For example, "vtunedemo.exe:t:t".
+460 [14840] INFO perfrun.launcher <> - the option was added --collector: BADMSG: perfrun1.launcher.plugin_manager::collector
+460 [14840] INFO perfrun.launcher <> - the option was added --system-wide: Enable system-wide profiling. This mode may require additional permissions.
+460 [14840] INFO perfrun.launcher <> - the option was added --kvm-guest: Enable KVM guest OS profiling.
+461 [14840] INFO perfrun.launcher <> - the option was added --kvm-guest-kallsyms: Specify a local path to the /proc/kallsyms file copied from the guest OS for proper symbol resolution.
+461 [14840] INFO perfrun.launcher <> - the option was added --kvm-guest-modules: Specify a local path to the /proc/modules file copied from the guest OS for proper symbol resolution.
+461 [14840] INFO perfrun.launcher <> - the option was added --bandwidth-limits: Measure bandwidth limits
+461 [14840] INFO perfrun.launcher <> - the option was added --bandwidth-strategy: Bandwidth limits determination specific properties (example: --bandwidth-strategy array-size=0,duration=500).
+462 [14840] INFO perfrun.launcher <> - the option was added --bandwidth-config: List of benchmarks to run.
+462 [14840] INFO perfrun.launcher <> - the option was added --system-collector-config: Specify subcollectors. Possible values: all, container, device-info, none.
+462 [14840] INFO perfrun.launcher <> - the option was added --target-gpu: target-gpu
+462 [14840] INFO perfrun.launcher <> - the option was added --itt-config: Specify a sub-set of ITT API to collect.
+462 [14840] INFO perfrun.launcher <> - the option was added --itt-debug: Set pseudo-breakpoint at ITT API collector's start to enable the debugger to attach early.
+463 [14840] INFO perfrun.launcher <> - the option was added --gpu-config: Specify types of GPU data to be collected. Possible values: preset1, preset2.
+463 [14840] INFO perfrun.launcher <> - the option was added --gpu-counting: Collect GPU data in the counting mode.
+463 [14840] INFO perfrun.launcher <> - the option was added --gpu-sampling-interval: Specify counters sampling interval for GPU.
+464 [14840] INFO perfrun.launcher <> - the option was added --stackwalk: Specify stack unwinding method. Possible values: online - unwind stacks during collection; offline - unwind stacks after collection is finished.
+464 [14840] INFO perfrun.launcher <> - the option was added --filter-include: Filter data during collection. Possible values: contended=<on|off> - filter out uncontended events; contended_nostack=<time> - filter out stacks for contended events that take less than <time> microseconds; wait=<time> - ignore transitions and blocks with wait time less than <time> microseconds; wait_nostack=<time> - filter out stacks for waits that take less than <time> microseconds.
+464 [14840] INFO perfrun.launcher <> - the option was added --debug-pin: Debug PIN tool and runtime.
+464 [14840] INFO perfrun.launcher <> - the option was added --debug-exception: Disallow the application to set own abnormal termination handler.
+465 [14840] INFO perfrun.launcher <> - the option was added --trace-type: Specify the trace file granularity. Possible values: per-thread - per-thread trace file generation; per-process - per-process trace file generation.
+465 [14840] INFO perfrun.launcher <> - the option was added --instrumentation-type: Specify type of instrumentation.
+465 [14840] INFO perfrun.launcher <> - the option was added --guard-pulse-event: Enable handling of PulseEvent API in order not to miss signals made by the API during Hotspots collection.
+465 [14840] INFO perfrun.launcher <> - the option was added --memory-strategy: Specify a minimal memory object size to be traced and a hash table size for faster objects search; for example: --memory-strategy obj-size-min=1024,hash-table-size=4096.
+466 [14840] INFO perfrun.launcher <> - the option was added --gpu-profiling-type: Specify a type of deep GPU profiling: none, bblatency, memlatency, instcount.
+466 [14840] INFO perfrun.launcher <> - the option was added --opencl-trace-mode: Specify OpenCL kernel tracing modes: 'default' to trace OpenCL kernels for Intel Graphics Driver only; 'epoch' for any non-Intel graphics, where OpenCL kernels will be traced and OpenCL profiling API timestamps will be interpreted as Unux Epoch time in nanoseconds; 'completion' to trace OpenCL kernels for any Graphics Driver and bind OpenCL profiling API timestamps to the timestamp of OpenCL completion callback.
+466 [14840] INFO perfrun.launcher <> - the option was added --gpu-kernels-to-profile: Specify a comma-separated list of GPU kernel names and invocations to be profiled in the following format: kernel_name[#start_idx#step#stop_idx], where kernel_name is the name of GPU kernel; start_idx is the number of the first invocation; and stop_idx is the number of the last invocation to be profiled.
+473 [14840] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+474 [14840] INFO perfrun.launcher <> - create file finder object
+474 [14840] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004 pid = 4294967295
+491 [14840] INFO perfrun.launcher <> - create data directory = C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0
+493 [14840] INFO perfrun.launcher <> - Creating the master collection flag
+508 [14840] INFO perfrun.launcher <> - Done creating the master collection flag
+509 [14544] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+509 [14544] INFO perfrun.sdk <> - Allocating TMU :C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0\systemcollector-10424-HP.sc
+510 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+518 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+518 [14544] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+518 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+518 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+518 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+518 [14544] INFO perfrun.mrte <> - system-wide mode is 0
+519 [14544] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+628 [14544] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0
+628 [14544] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=HP
+628 [14544] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0
+629 [14544] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+629 [14544] INFO perfrun.mrte <> - COR_PROFILER={10337B79-F6CD-4df9-8D18-26A67272096B}
+629 [14544] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+629 [14544] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+629 [14544] INFO perfrun.mrte <> - CORECLR_PROFILER={10337B79-F6CD-4df9-8D18-26A67272096B}
+629 [14544] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64/advixe_tpssmrte_clrprof_1.0.dll
+629 [14544] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+629 [14544] INFO perfrun.mrte <> - Data directory: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0
+629 [14544] INFO perfrun.mrte <> - Mrte plugin is initialized
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+629 [14544] INFO perfrun.tpss <> - initialize tpss controller
+629 [14544] INFO perfrun.tpss <> - configure collection mode: value = projection:stack
+631 [14544] INFO perfrun.tpss <> - default obj-size-min=1024
+632 [14544] INFO perfrun.tpss <> - default hash-table-size=0
+1045 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1045 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1045 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14544] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+1046 [14840] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\HP\Desktop\xampp\php;C:\Program Files\Symfony;C:\Users\HP\Desktop\Software\Matlab\runtime\win64;C:\Users\HP\Desktop\Software\Matlab\bin;C:\Users\HP\Desktop\Software\Matlab\polyspace\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\Ruby25-x64\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\HP\AppData\Local\GitHubDesktop\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\Composer\vendor\bin;C:\Users\HP\.dotnet\tools
+1047 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\ittnotify_collector.dll
+1047 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\ittnotify_collector.dll
+1047 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+1047 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\ittnotify_collector.dll
+1048 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\ittnotify_collector.dll
+1048 [14840] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = ittnotify_collector.dll
+1048 [14840] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\runtime\ittnotify_collector.dll;C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\runtime\ittnotify_collector.dll
+1048 [14840] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+1048 [14840] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+1049 [14840] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+1049 [14840] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+1049 [14840] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+1049 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0
+1050 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = HP
+1050 [14840] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0
+1050 [14840] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+1050 [14840] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {10337B79-F6CD-4df9-8D18-26A67272096B}
+1051 [14840] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+1051 [14840] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+1051 [14840] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {10337B79-F6CD-4df9-8D18-26A67272096B}
+1052 [14840] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64/advixe_tpssmrte_clrprof_1.0.dll
+1052 [14840] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+1053 [14840] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+1076 [14840] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe' is valid.
+1076 [14840] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe
+1088 [14840] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\pin.exe -error_file C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0\bin32\tpsstool.dll -server_name tpss_ipc.10424 -prd_dir C:\Program Files (x86)\Intel\oneAPI\advisor\2021.2.0 -- C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\x64\Debug\DZ2.exe
+1088 [14840] INFO perfrun.launcher <> - ProcessCreator object was created
+1093 [14840] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+1097 [14544] INFO perfrun.itt <> - start itt controller for pid #17896
+1113 [14544] INFO perfrun.tpss <> - start tpss controller for pid #17896
+1190 [14840] INFO perfrun.launcher <> - Launcher: all plugins were started
+1190 [14840] INFO perfrun.launcher <> - DirectoryMonitor object was created
+1190 [14840] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+1190 [14840] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+1191 [14840] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+1254 [14840] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1274 [14840] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+5205 [14840] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+5247 [14544] INFO perfrun.itt <> - stop itt controller
+5247 [14544] INFO perfrun.itt <> - detach itt controller
+5247 [14544] INFO perfrun.tpss <> - stop tpss controller
+5251 [14544] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0\systemcollector-10424-HP.sc
+5277 [14544] INFO perfrun.system <> - closed the system trace file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\st004\data.0\systemcollector-10424-HP.sc
+5277 [14840] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+5277 [14840] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+5288 [14840] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+5297 [14840] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+5298 [14840] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:212
+5300 [14840] INFO perfrun.launcher <> - Application exit code: 0
+5300 [14840] INFO perfrun.launcher <> - Exit code: 0

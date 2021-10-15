@@ -36,19 +36,19 @@
        <targetName>launch</targetName>
        <enable_app_output_log type="bool">false</enable_app_output_log>
        <project_id>{FD7D9E85-9A89-4B2C-A6AE-092AB4DE3678}</project_id>
-       <launch_app.app_to_launch>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Release\DZ4.exe</launch_app.app_to_launch>
+       <launch_app.app_to_launch>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Debug\DZ4.exe</launch_app.app_to_launch>
        <launch_app.working_folder>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4</launch_app.working_folder>
        <use_app_dir_as_work_dir type="bool">false</use_app_dir_as_work_dir>
        <result_directory.path>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r@@@{at}</result_directory.path>
        <search_directories>
         <item>
-         <value>sym=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Release</value>
+         <value>sym=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Debug</value>
         </item>
         <item>
          <value>sym=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4</value>
         </item>
         <item>
-         <value>bin=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Release</value>
+         <value>bin=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Debug</value>
         </item>
         <item>
          <value>bin=C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4</value>
@@ -231,4 +231,8 @@
    </workloads>
   </target_settings>
  </All_Configurations-All_Platforms>
+ <debugger_settings>
+  <debugger_mode>off</debugger_mode>
+  <at_cliname>mi1</at_cliname>
+ </debugger_settings>
 </root>

@@ -1,0 +1,23 @@
+-r
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r008ti3
+--check-deadlock
+--check-potential-deadlock
+--save-stack-on-lock-creation
+--check-datarace
+--no-terminate-on-deadlock
+--resolution=fine
+--no-check-stack-access
+--stack-depth=24
+--sampling-budget=5
+--1cell-mode=last-write
+--tool=tclcore
+--save-stack-on-first-access
+--save-stack-on-allocation
+--check-cross-thread-stack-access
+--no-emit-ctsa-diagnostics
+--no-close-console
+--mrte-mode=auto
+--offload-target=default
+--heartbeat=1
+--
+C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Debug\DZ4.exe

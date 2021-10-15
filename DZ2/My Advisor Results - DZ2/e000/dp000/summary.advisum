@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_CORRECTNESS" >
+  <site filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" 
+        line_no="26" 
+        label="allWhileLoop2" 
+        loop_name="leftRectanglesMethodThreaded" 
+        is_vectorized="-1">
+    <dependencies RAW="1" 
+                  WAR="0" 
+                  WAW="0" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="0" 
+                  nobegin="0"/>
+  </site> 
+  <site filename="C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\DZ2.cpp" 
+        line_no="11" 
+        label="allWhileLoop" 
+        loop_name="leftRectanglesMethod" 
+        is_vectorized="-1">
+    <dependencies RAW="1" 
+                  WAR="0" 
+                  WAW="0" 
+                  potentialWAR="0" 
+                  potentialWAW="0" 
+                  potentialReduction="0" 
+                  nobegin="0"/>
+  </site> 
+</IntelParallelAdvisorSummary >

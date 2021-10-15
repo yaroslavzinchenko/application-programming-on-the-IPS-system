@@ -1,0 +1,34 @@
+Analysis started...
+Collection has been started.
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\dp000\dp000.advixe 
+Found target process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz2\x64\debug\dz2.exe (PID = 4532). Analysis started... 
+Loaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz2\x64\debug\dz2.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\vcruntime140d.dll. 
+Loaded module: c:\windows\system32\msvcp140d.dll. 
+Loaded module: c:\windows\system32\ucrtbased.dll. 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\advisor\2021.2.0\bin32\runtime\libittnotify.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\advisor\2021.2.0\bin32\runtime\libittnotify.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\advisor\2021.2.0\bin64\runtime\libittnotify.dll. 
+Loaded module: c:\windows\system32\kernel.appcore.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Unloaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz2\x64\debug\dz2.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\vcruntime140d.dll. 
+Unloaded module: c:\windows\system32\msvcp140d.dll. 
+Unloaded module: c:\windows\system32\ucrtbased.dll. 
+Unloaded module: c:\windows\system32\vcruntime140_1d.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\advisor\2021.2.0\bin64\runtime\libittnotify.dll. 
+Unloaded module: c:\windows\system32\kernel.appcore.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz2\x64\debug\dz2.exe (PID = 4532) has terminated. 
+Application exit code: 0 
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ2\My Advisor Results - DZ2\e000\dp000\dp000.advixe 
+Analysis completed

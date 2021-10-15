@@ -16,4 +16,5 @@
   </pmThreading>
  </workflow>
  <FilterView boolean:VectorizedButtonChecked="true" boolean:NotVectorizedButtonChecked="true" boolean:FakeLoopButtonChecked="false" boolean:LibrariesButtonChecked="false" ModuleFilterValue="All Modules" SourceFilterValue="All Sources" LoopModeFilterValue="Loops And Functions" ThreadFilterValue="All Threads"/>
+ <SurveySourceView boolean:SourcePaneVisible="true" boolean:AsmPaneVisible="true" boolean:StackPaneVisible="true"/>
 </bag>

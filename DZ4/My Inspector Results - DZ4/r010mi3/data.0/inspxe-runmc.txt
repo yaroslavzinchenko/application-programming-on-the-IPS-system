@@ -1,0 +1,41 @@
+
+=== Start: [2021/09/18 19:28:29] === 
+Analysis started...
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r010mi3\r010mi3.inspxe 
+Analysis started for c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe (pid = 11964) 
+Loaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe, address range [0xde0000-0xe03fff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x76a00000-0x76c13fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x77600000-0x776effff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77e30000-0x77fd2fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc970000-0xc98dfff] 
+Loaded module: c:\windows\syswow64\vcomp140d.dll, address range [0xc9a0000-0xc9cbfff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xca00000-0xcb75fff] 
+Unloaded module: C:\Windows\SysWOW64\vcomp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xca00000-0xcab2fff] 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Loaded module: c:\windows\syswow64\vcomp140d.dll, address range [0xca00000-0xca2bfff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xcdc0000-0xcdddfff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xcde0000-0xcf55fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xd010000-0xd0c2fff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x75860000-0x7586efff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75ef0000-0x75faefff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x75fd0000-0x7608efff] 
+Process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Debug\DZ4.exe 
+Unloaded module: C:\Windows\SysWOW64\KernelBase.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel32.dll 
+Unloaded module: C:\Windows\SysWOW64\ntdll.dll 
+Unloaded module: C:\Windows\SysWOW64\vcomp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcrt.dll 
+Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll 
+Completed analysis for c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe 
+Application exit code: 0 
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r010mi3\r010mi3.inspxe 
+Analysis completed
+=== End: [2021/09/18 19:28:59] === 

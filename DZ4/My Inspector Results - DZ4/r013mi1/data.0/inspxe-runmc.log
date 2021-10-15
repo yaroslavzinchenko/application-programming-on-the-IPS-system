@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2021/09/19 20:50:47</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r013mi1\r013mi1.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <arg>17232</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:48 2021</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <arg>0xde0000</arg>
+  <arg>0xe03fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:48 2021</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x76a00000</arg>
+  <arg>0x76c13fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:49 2021</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x77600000</arg>
+  <arg>0x776effff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:49 2021</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77e30000</arg>
+  <arg>0x77fd2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:50 2021</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intel\oneapi\inspector\2021.2.0\bin32\dnclrprofinfo.dll</arg>
+  <arg>0x7b3a0000</arg>
+  <arg>0x7b3edfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:50 2021</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0x3cc0000</arg>
+  <arg>0x3d72fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:52 2021</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcomp140d.dll</arg>
+  <arg>0x55960000</arg>
+  <arg>0x5598bfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:54 2021</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x61b10000</arg>
+  <arg>0x61b2dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:54 2021</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0x1a90000</arg>
+  <arg>0x1c05fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:55 2021</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x75860000</arg>
+  <arg>0x7586efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:55 2021</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x75ef0000</arg>
+  <arg>0x75faefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:55 2021</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x75fd0000</arg>
+  <arg>0x7608efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:55 2021</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:55 2021</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 20:50:55 2021</timestamp>
+</msg>
+<msg id="19" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="20" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r013mi1\r013mi1.inspxe</arg>
+</msg>
+<msg id="21" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="22" tool="runtool">
+  <type>log-end</type>
+  <arg>2021/09/19 20:51:00</arg>
+</msg>
+
+</log>
+

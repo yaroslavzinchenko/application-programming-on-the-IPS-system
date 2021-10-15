@@ -1,0 +1,153 @@
+928050	push ebx
+928051	mov ebx, esp
+928053	sub esp, 0x8
+928056	and esp, 0xffffffe0
+928059	add esp, 0x4
+928062	push ebp
+928063	mov ebp, dword ptr [ebx+0x4]
+928066	mov dword ptr [esp+0x4], ebp
+928070	mov ebp, esp
+928072	sub esp, 0xc0
+928078	mov eax, dword ptr [ebx+0x8]
+928081	mov dword ptr [ebp-0x18], eax
+928084	mov eax, dword ptr [ebp-0x18]
+928087	xor edx, edx
+928089	mov ecx, 0x2
+928094	div ecx
+928096	test edx, edx
+928098	jz 0xe2979
+928100	mov edx, dword ptr [ebx+0xc]
+928103	push edx
+928104	mov eax, dword ptr [ebx+0x8]
+928107	push eax
+928108	call 0xe2820
+928113	add esp, 0x8
+928116	jmp 0xe2afa
+928121	mov eax, dword ptr [ebp-0x18]
+928124	xor edx, edx
+928126	mov ecx, 0x20
+928131	div ecx
+928133	mov dword ptr [ebp-0x1c], edx
+928136	cmp dword ptr [ebp-0x1c], 0x0
+928140	jnz 0xe2997
+928142	mov dword ptr [ebp-0x20], 0x0
+928149	jmp 0xe29a2
+928151	mov edx, 0x20
+928156	sub edx, dword ptr [ebp-0x1c]
+928159	mov dword ptr [ebp-0x20], edx
+928162	mov eax, dword ptr [ebp-0x20]
+928165	mov dword ptr [ebp-0x24], eax
+928168	mov ecx, dword ptr [ebp-0x24]
+928171	shr ecx, 0x1
+928173	cmp dword ptr [ebx+0xc], ecx
+928176	jnb 0xe29ba
+928178	mov edx, dword ptr [ebx+0xc]
+928181	mov dword ptr [ebp-0x28], edx
+928184	jmp 0xe29c2
+928186	mov eax, dword ptr [ebp-0x24]
+928189	shr eax, 0x1
+928191	mov dword ptr [ebp-0x28], eax
+928194	mov ecx, dword ptr [ebp-0x28]
+928197	mov dword ptr [ebp-0x14], ecx
+928200	mov edx, dword ptr [ebp-0x14]
+928203	push edx
+928204	mov eax, dword ptr [ebx+0x8]
+928207	push eax
+928208	call 0xe28d0
+928213	add esp, 0x8
+928216	mov dword ptr [ebp-0x10], eax
+928219	mov ecx, dword ptr [ebp-0x10]
+928222	cmp ecx, dword ptr [ebp-0x14]
+928225	jz 0xe29eb
+928227	mov eax, dword ptr [ebp-0x10]
+928230	jmp 0xe2afa
+928235	mov edx, dword ptr [ebp-0x10]
+928238	mov eax, dword ptr [ebx+0x8]
+928241	lea ecx, ptr [eax+edx*2]
+928244	mov dword ptr [ebp-0x8], ecx
+928247	call 0xe3590
+928252	vmovdqu ymmword ptr [ebp-0x80], ymm0
+928257	vmovdqu ymm0, ymmword ptr [ebp-0x80]
+928262	vmovdqu ymmword ptr [ebp-0xa0], ymm0
+928270	mov edx, dword ptr [ebx+0xc]
+928273	sub edx, dword ptr [ebp-0x14]
+928276	mov dword ptr [ebp-0x2c], edx
+928279	mov eax, dword ptr [ebp-0x2c]
+928282	xor edx, edx
+928284	mov ecx, 0x20
+928289	div ecx
+928291	mov dword ptr [ebp-0x30], edx
+928294	mov edx, dword ptr [ebp-0x2c]
+928297	sub edx, dword ptr [ebp-0x30]
+928300	mov dword ptr [ebp-0x34], edx
+928303	mov eax, dword ptr [ebp-0x34]
+928306	mov ecx, dword ptr [ebp-0x8]
+928309	lea edx, ptr [ecx+eax*2]
+928312	mov dword ptr [ebp-0x38], edx
+928315	mov eax, dword ptr [ebp-0x38]
+928318	push eax
+928319	mov ecx, dword ptr [ebp-0x8]
+928322	push ecx
+928323	call 0xa2d70
+928328	add esp, 0x8
+928331	movzx edx, al
+928334	test edx, edx
+928336	jnz 0xe2aaa
+928338	mov eax, dword ptr [ebp-0x8]
+928341	mov dword ptr [ebp-0x3c], eax
+928344	vmovdqu ymm1, ymmword ptr [ebp-0xa0]
+928352	mov ecx, dword ptr [ebp-0x3c]
+928355	vmovdqu ymm0, ymmword ptr [ecx]
+928359	call 0xe3470
+928364	vmovdqu ymmword ptr [ebp-0xc0], ymm0
+928372	vmovdqu ymm0, ymmword ptr [ebp-0xc0]
+928380	call 0xe3530
+928385	test eax, eax
+928387	jz 0xe2a8b
+928389	mov byte ptr [ebp-0x1], 0x1
+928393	jmp 0xe2a8f
+928395	mov byte ptr [ebp-0x1], 0x0
+928399	mov dl, byte ptr [ebp-0x1]
+928402	mov byte ptr [ebp-0x9], dl
+928405	movzx eax, byte ptr [ebp-0x9]
+928409	test eax, eax
+928411	jz 0xe2a9f
+928413	jmp 0xe2aaa
+928415	mov ecx, dword ptr [ebp-0x8]
+928418	add ecx, 0x20
+928421	mov dword ptr [ebp-0x8], ecx
+928424	jmp 0xe2a3b
+928426	mov edx, dword ptr [ebx+0xc]
+928429	mov eax, dword ptr [ebx+0x8]
+928432	lea ecx, ptr [eax+edx*2]
+928435	mov dword ptr [ebp-0x40], ecx
+928438	jmp 0xe2ac1
+928440	mov edx, dword ptr [ebp-0x8]
+928443	add edx, 0x2
+928446	mov dword ptr [ebp-0x8], edx
+928449	mov eax, dword ptr [ebp-0x40]
+928452	push eax
+928453	mov ecx, dword ptr [ebp-0x8]
+928456	push ecx
+928457	call 0xa2d70
+928462	add esp, 0x8
+928465	movzx edx, al
+928468	test edx, edx
+928470	jnz 0xe2ae4
+928472	mov eax, dword ptr [ebp-0x8]
+928475	movzx ecx, word ptr [eax]
+928478	test ecx, ecx
+928480	jz 0xe2ae4
+928482	jmp 0xe2ab8
+928484	mov edx, dword ptr [ebp-0x8]
+928487	sub edx, dword ptr [ebx+0x8]
+928490	sar edx, 0x1
+928492	mov dword ptr [ebp-0x44], edx
+928495	lea ecx, ptr [ebp-0xa]
+928498	call 0xe3420
+928503	mov eax, dword ptr [ebp-0x44]
+928506	mov esp, ebp
+928508	pop ebp
+928509	mov esp, ebx
+928511	pop ebx
+928512	ret 

@@ -1,0 +1,138 @@
+#include <iostream>
+#include <chrono>
+#include <thread>
+
+using namespace std;
+
+double analyticalSolution(double a, double b)
+{
+	double area = 8 * atan(b) - 8 * atan(a);
+	return area;
+}
+
+double leftRectanglesMethod(double a, double b, double h)
+{
+	double area = h * (8 / (1 + a * a));
+	while (a < b)
+	{
+		area = area + h * (8 / (1 + a * a));
+		a = a + h;
+	}
+
+	return area;
+}
+
+// В отличие от метода левых прямоугольников, идём справа налево, а не слева направо.
+double rightRectanglesMethod(double a, double b, double h)
+{
+	double area = h * (8 / (1 + b * b));
+	while (b > a)
+	{
+		area = area + h * (8 / (1 + b * b));
+		b = b - h;
+	}
+
+	return area;
+}
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+
+	// Границы интегрирования.
+	double a = 0;
+	double b = 1;
+
+	cout << "Запускаем последовательную программу: " << endl;
+	chrono::high_resolution_clock::time_point t1 = chrono::high_resolution_clock::now();
+
+	// Количество интервалов.
+	double n = 100;
+
+	// Вычислим шаг разбиения (длину каждого промежуточного отрезка):
+	double h = (b - a) / n;
+
+	cout << "Метод левых прямоугольников:" << endl;
+	cout << leftRectanglesMethod(a, b, h) << endl;
+	chrono::high_resolution_clock::time_point t2 = chrono::high_resolution_clock::now();
+	chrono::duration <double> durationLeftRectangles = (t2 - t1);
+	cout << "Время подсчёта методом левых прямоугольников с шагом " << n << ": " << durationLeftRectangles.count() << " секунд." << endl << endl;
+
+	n = 1000;
+	h = (b - a) / n;
+	cout << leftRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationLeftRectangles = (t2 - t1);
+	cout << "Время подсчёта методом левых прямоугольников с шагом " << n << ": "  << durationLeftRectangles.count() << " секунд." << endl << endl;
+
+	n = 10000;
+	h = (b - a) / n;
+	cout << leftRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationLeftRectangles = (t2 - t1);
+	cout << "Время подсчёта методом левых прямоугольников с шагом " << n << ": " << durationLeftRectangles.count() << " секунд." << endl << endl;
+
+	n = 100000;
+	h = (b - a) / n;
+	cout << leftRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationLeftRectangles = (t2 - t1);
+	cout << "Время подсчёта методом левых прямоугольников с шагом " << n << ": " << durationLeftRectangles.count() << " секунд." << endl << endl;
+
+	n = 1000000;
+	h = (b - a) / n;
+	cout << leftRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationLeftRectangles = (t2 - t1);
+	cout << "Время подсчёта методом левых прямоугольников с шагом " << n << ": " << durationLeftRectangles.count() << " секунд." << endl << endl;
+
+	t1 = chrono::high_resolution_clock::now();
+
+	cout << "Метод правых прямоугольников:" << endl;
+	n = 100;
+	h = (b - a) / n;
+	cout << rightRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	chrono::duration <double> durationRightRectangles = (t2 - t1);
+	cout << "Время подсчёта методом правых прямоугольников с шагом: " << n << ": " << durationRightRectangles.count() << " секунд." << endl << endl;
+
+
+	n = 1000;
+	h = (b - a) / n;
+	cout << rightRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationRightRectangles = (t2 - t1);
+	cout << "Время подсчёта методом правых прямоугольников с шагом: " << n << ": " << durationRightRectangles.count() << " секунд." << endl << endl;
+
+
+	n = 10000;
+	h = (b - a) / n;
+	cout << rightRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationRightRectangles = (t2 - t1);
+	cout << "Время подсчёта методом правых прямоугольников с шагом: " << n << ": " << durationRightRectangles.count() << " секунд." << endl << endl;
+
+	n = 100000;
+	h = (b - a) / n;
+	cout << rightRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationRightRectangles = (t2 - t1);
+	cout << "Время подсчёта методом правых прямоугольников с шагом: " << n << ": " << durationRightRectangles.count() << " секунд." << endl << endl;
+
+	n = 1000000;
+	h = (b - a) / n;
+	cout << rightRectanglesMethod(a, b, h) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	durationRightRectangles = (t2 - t1);
+	cout << "Время подсчёта методом правых прямоугольников с шагом: " << n << ": " << durationRightRectangles.count() << " секунд." << endl << endl;
+
+	cout << "Аналитическое решение: " << endl;
+
+	t1 = chrono::high_resolution_clock::now();
+	cout << analyticalSolution(a, b) << endl;
+	t2 = chrono::high_resolution_clock::now();
+	chrono::duration <double> durationAnalyticalSolution = (t2 - t1);
+	cout << "Время подсчёта аналитическим методом: " << durationAnalyticalSolution.count() << " секунд." << endl << endl;
+
+	return 0;
+}

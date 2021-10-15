@@ -16,9 +16,10 @@
 						<func>RtlIpv6AddressToStringA</func>
 						<dec_func>RtlIpv6AddressToStringA</dec_func>
 						<mod_checksum>731c68742b6ce885711b566a6e18a956</mod_checksum>
+						<operand_type>int,int</operand_type>
 						<instr_address>0x4b2f2996</instr_address>
-						<instr_size>2</instr_size>
-						<operand_size>0</operand_size>
+						<instr_size>1</instr_size>
+						<operand_size>32</operand_size>
 					</loc>
 				</stacktrace>
 			</thread>
@@ -39,9 +40,10 @@
 						<func>TpCallbackIndependent</func>
 						<dec_func>TpCallbackIndependent</dec_func>
 						<mod_checksum>731c68742b6ce885711b566a6e18a956</mod_checksum>
+						<operand_type>ubyte</operand_type>
 						<instr_address>0x4b2b5900</instr_address>
 						<instr_size>2</instr_size>
-						<operand_size>0</operand_size>
+						<operand_size>8</operand_size>
 					</loc>
 				</stacktrace>
 			</thread>
@@ -62,9 +64,10 @@
 						<func>TpCallbackIndependent</func>
 						<dec_func>TpCallbackIndependent</dec_func>
 						<mod_checksum>731c68742b6ce885711b566a6e18a956</mod_checksum>
+						<operand_type>ubyte</operand_type>
 						<instr_address>0x4b2b5900</instr_address>
 						<instr_size>2</instr_size>
-						<operand_size>0</operand_size>
+						<operand_size>8</operand_size>
 					</loc>
 				</stacktrace>
 			</thread>
@@ -85,9 +88,10 @@
 						<func>TpCallbackIndependent</func>
 						<dec_func>TpCallbackIndependent</dec_func>
 						<mod_checksum>731c68742b6ce885711b566a6e18a956</mod_checksum>
+						<operand_type>ubyte</operand_type>
 						<instr_address>0x4b2b5900</instr_address>
 						<instr_size>2</instr_size>
-						<operand_size>0</operand_size>
+						<operand_size>8</operand_size>
 					</loc>
 				</stacktrace>
 			</thread>

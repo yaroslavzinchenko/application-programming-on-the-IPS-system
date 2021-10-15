@@ -1,0 +1,39 @@
+
+=== Start: [2021/09/19 12:59:05] === 
+Analysis started...
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r012ti3\r012ti3.inspxe 
+Found target process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe (PID = 8600). Analysis started... 
+Loaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe. 
+Loaded module: c:\windows\syswow64\kernelbase.dll. 
+Loaded module: c:\windows\syswow64\kernel32.dll. 
+Loaded module: c:\windows\syswow64\ntdll.dll. 
+Loaded module: c:\windows\syswow64\vcomp140d.dll. 
+Warning: Inspector does not support the Microsoft OpenMP Runtime module and may report false positives. Refer to the product release notes. 
+Loaded module: c:\windows\syswow64\ucrtbased.dll. 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll. 
+Unloaded module: c:\windows\syswow64\vcruntime140d.dll. 
+Loaded module: c:\windows\syswow64\msvcp140d.dll. 
+Unloaded module: c:\windows\syswow64\ucrtbased.dll. 
+Unloaded module: c:\windows\syswow64\msvcp140d.dll. 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll. 
+Loaded module: c:\windows\syswow64\ucrtbased.dll. 
+Loaded module: c:\windows\syswow64\msvcp140d.dll. 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll. 
+Loaded module: c:\windows\syswow64\msvcrt.dll. 
+Loaded module: c:\windows\syswow64\rpcrt4.dll. 
+Unloaded module: c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe. 
+Unloaded module: c:\windows\syswow64\kernelbase.dll. 
+Unloaded module: c:\windows\syswow64\kernel32.dll. 
+Unloaded module: c:\windows\syswow64\ntdll.dll. 
+Unloaded module: c:\windows\syswow64\vcomp140d.dll. 
+Unloaded module: c:\windows\syswow64\vcruntime140d.dll. 
+Unloaded module: c:\windows\syswow64\ucrtbased.dll. 
+Unloaded module: c:\windows\syswow64\msvcp140d.dll. 
+Unloaded module: c:\windows\syswow64\kernel.appcore.dll. 
+Unloaded module: c:\windows\syswow64\msvcrt.dll. 
+Unloaded module: c:\windows\syswow64\rpcrt4.dll. 
+Process c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe (PID = 8600) has terminated. 
+Application exit code: 0 
+Result file: C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r012ti3\r012ti3.inspxe 
+Analysis completed
+=== End: [2021/09/19 12:59:28] === 

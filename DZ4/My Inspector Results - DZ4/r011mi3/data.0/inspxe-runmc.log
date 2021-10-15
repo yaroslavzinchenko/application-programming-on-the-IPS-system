@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2021/09/19 12:56:02</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r011mi3\r011mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <arg>12148</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:04 2021</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <arg>0xde0000</arg>
+  <arg>0xe03fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:05 2021</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x76a00000</arg>
+  <arg>0x76c13fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:05 2021</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x77600000</arg>
+  <arg>0x776effff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:05 2021</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77e30000</arg>
+  <arg>0x77fd2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:05 2021</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcomp140d.dll</arg>
+  <arg>0xcca0000</arg>
+  <arg>0xcccbfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:10 2021</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0xcd10000</arg>
+  <arg>0xce85fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:10 2021</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0xcf70000</arg>
+  <arg>0xd022fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:11 2021</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0xd290000</arg>
+  <arg>0xd2adfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:11 2021</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:12 2021</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcruntime140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:12 2021</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:12 2021</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcomp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:12 2021</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0xcca0000</arg>
+  <arg>0xccbdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:12 2021</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0xcd10000</arg>
+  <arg>0xcdc2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:13 2021</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0xd2d0000</arg>
+  <arg>0xd445fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:13 2021</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcomp140d.dll</arg>
+  <arg>0xd450000</arg>
+  <arg>0xd47bfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:13 2021</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>127757,2291,598,618</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:22 2021</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>28128,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:23 2021</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>6631,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:24 2021</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>26646,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:25 2021</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>27763,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:26 2021</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>58082,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:27 2021</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x75860000</arg>
+  <arg>0x7586efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:28 2021</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x75ef0000</arg>
+  <arg>0x75faefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:28 2021</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x75fd0000</arg>
+  <arg>0x7608efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:28 2021</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>7356,14864,6596,18792</arg>
+  <arg>0,1,1,1</arg>
+  <arg>25059,0,238,555</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:28 2021</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\Debug\DZ4.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\KernelBase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcruntime140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcomp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>c:\users\hp\desktop\github\application-programming-on-the-ips-system\dz4\debug\dz4.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun Sep 19 12:56:31 2021</timestamp>
+</msg>
+<msg id="44" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="45" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\HP\Desktop\GitHub\application-programming-on-the-IPS-system\DZ4\My Inspector Results - DZ4\r011mi3\r011mi3.inspxe</arg>
+</msg>
+<msg id="46" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="47" tool="runtool">
+  <type>log-end</type>
+  <arg>2021/09/19 12:56:35</arg>
+</msg>
+
+</log>
+
